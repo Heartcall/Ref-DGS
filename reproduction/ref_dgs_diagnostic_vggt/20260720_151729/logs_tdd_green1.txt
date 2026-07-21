@@ -1,0 +1,12 @@
+test_prepare_payload_squeezes_only_singleton_channel_and_clones_storage (test_diagnostic_tools.PayloadValidationTest.test_prepare_payload_squeezes_only_singleton_channel_and_clones_storage) ... ok
+test_validate_payload_rejects_missing_key (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_missing_key) ... ok
+test_validate_payload_rejects_negative_confidence (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_negative_confidence) ... ok
+test_validate_payload_rejects_nonfinite_depth (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_nonfinite_depth) ... ok
+test_validate_payload_rejects_shape_mismatch (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_shape_mismatch) ... ok
+test_recovers_exact_twenty_view_batches (test_diagnostic_tools.RecoverBatchManifestTest.test_recovers_exact_twenty_view_batches) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 5.167s
+
+OK
+

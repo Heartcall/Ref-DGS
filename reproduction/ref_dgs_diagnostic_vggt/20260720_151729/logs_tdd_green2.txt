@@ -1,0 +1,15 @@
+test_image_paths_follow_manifest_slot_order (test_diagnostic_tools.GeneratorContractTest.test_image_paths_follow_manifest_slot_order) ... ok
+test_prediction_payloads_rejects_view_count_mismatch (test_diagnostic_tools.GeneratorContractTest.test_prediction_payloads_rejects_view_count_mismatch) ... ok
+test_prediction_payloads_slices_vggt_batch_and_clones_each_map (test_diagnostic_tools.GeneratorContractTest.test_prediction_payloads_slices_vggt_batch_and_clones_each_map) ... ok
+test_prepare_payload_squeezes_only_singleton_channel_and_clones_storage (test_diagnostic_tools.PayloadValidationTest.test_prepare_payload_squeezes_only_singleton_channel_and_clones_storage) ... ok
+test_validate_payload_rejects_missing_key (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_missing_key) ... ok
+test_validate_payload_rejects_negative_confidence (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_negative_confidence) ... ok
+test_validate_payload_rejects_nonfinite_depth (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_nonfinite_depth) ... ok
+test_validate_payload_rejects_shape_mismatch (test_diagnostic_tools.PayloadValidationTest.test_validate_payload_rejects_shape_mismatch) ... ok
+test_recovers_exact_twenty_view_batches (test_diagnostic_tools.RecoverBatchManifestTest.test_recovers_exact_twenty_view_batches) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 4.401s
+
+OK
+

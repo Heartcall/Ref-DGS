@@ -1,0 +1,17 @@
+{
+  "label": "NON-CANONICAL: regenerated with public VGGT; not an official paper reproduction",
+  "checkpoint_hf_cli_first_stalled_then_interrupted": 130,
+  "checkpoint_hf_cli_resume_stalled_then_aborted": 1,
+  "checkpoint_official_curl_completion": 0,
+  "checkpoint_sha256_verification": 0,
+  "unit_tests_final_12": 0,
+  "vggt_probe_attempt_1_depth_layout_assertion": 1,
+  "vggt_probe_attempt_2_confidence_layout_assertion": 1,
+  "vggt_probe_attempt_3": 0,
+  "vggt_ball_all_300_generation": 0,
+  "vggt_ball_all_300_validation": 0,
+  "refdgs_ball_2_iteration_train": 0,
+  "refdgs_ball_20_iteration_train": 0,
+  "refdgs_ball_20_iteration_render_metrics_tsdf": 0
+}
+

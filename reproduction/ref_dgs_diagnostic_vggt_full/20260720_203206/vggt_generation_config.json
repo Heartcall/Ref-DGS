@@ -1,0 +1,63 @@
+{
+  "config_id": "vggt_a288dd0_d15bf50_crop518_bf16_group20_v1",
+  "label": "NON-CANONICAL VGGT-REGENERATED PRIORS — NOT A STRICT PAPER REPRODUCTION",
+  "ref_dgs_commit": "490dc585a2d329928363e94f5f91951a61ddee0c",
+  "vggt": {
+    "repository_url": "https://github.com/facebookresearch/vggt",
+    "commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+    "checkpoint_repository": "facebook/VGGT-1B",
+    "checkpoint_filename": "model.pt",
+    "checkpoint_revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+    "checkpoint_sha256": "d15bf50a8615c8225ed48b51ea5cac673d82442ec0309036df555a053253afe0",
+    "checkpoint_size_bytes": 5026874952
+  },
+  "input": {
+    "preprocess_function": "vggt.utils.load_fn.load_and_preprocess_images",
+    "mode": "crop",
+    "target_resolution": [518, 518],
+    "resize": "Pillow bicubic; width 518; preserve aspect; center-crop height only when greater than 518",
+    "rgba_background": "white",
+    "value_range": [0.0, 1.0]
+  },
+  "inference": {
+    "physical_gpu": 1,
+    "gpu_model": "NVIDIA RTX A5000 24 GB",
+    "cuda_visible_devices": "1",
+    "logical_device": "cuda:0",
+    "autocast": "torch.bfloat16",
+    "dpt_frames_chunk_size": 8,
+    "independent_per_view_inference": false,
+    "cross_batch_stitching": false
+  },
+  "grouping": {
+    "default_policy": "transform_file_order_consecutive_chunks",
+    "views_per_inference": 20,
+    "final_partial_batch_allowed": true,
+    "claimed_author_equivalent": false,
+    "ball_policy": "reuse prior completed diagnostic generated with grouping recovered from intact storage metadata in the corrupt official archive",
+    "irreducible_difference": "author multi-view grouping and generation environment are unpublished for the other scenes"
+  },
+  "serialization": {
+    "keys": ["depth_map", "depth_conf"],
+    "saved_shape": [518, 518],
+    "saved_dtype": "torch.float32",
+    "saved_device": "cpu",
+    "storage": "detach().cpu().contiguous().clone() for each map",
+    "depth_inverted": false,
+    "depth_normalized": false,
+    "depth_scaled_or_shifted": false,
+    "confidence_fabricated": false
+  },
+  "scenes": {
+    "ShinySynthetic": ["ball", "car", "coffee", "helmet", "teapot", "toaster"],
+    "GlossySynthetic": ["angel", "bell", "cat", "horse", "luyu", "potion", "tbell", "teapot"]
+  },
+  "view_counts": {
+    "ShinySynthetic_per_scene": {"train": 100, "test": 200},
+    "GlossySynthetic_per_scene": {"train": 112, "test": 16},
+    "total": 2824,
+    "reused_ball": 300,
+    "to_generate": 2524
+  }
+}
+

@@ -1,0 +1,1316 @@
+{
+  "dataset": "GlossySynthetic",
+  "grouping": {
+    "batch_size": 20,
+    "claimed_author_equivalent": false,
+    "final_partial_batch_allowed": true,
+    "policy": "transform_file_order_consecutive_chunks",
+    "reason": "author multi-view grouping is unavailable for these scenes"
+  },
+  "label": "NON-CANONICAL VGGT-REGENERATED PRIORS \u2014 NOT A STRICT PAPER REPRODUCTION",
+  "scene": "bell",
+  "scene_root": "/data/liuly/dataset/3DGS/GlossySyntheticConverted/bell_blender",
+  "split_counts": {
+    "test": 16,
+    "train": 112
+  },
+  "test_batches": [
+    [
+      {
+        "batch_index": 0,
+        "frame_index": 0,
+        "image_name": "0",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/0.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/0.pth",
+        "slot": 0,
+        "source_relpath": "rgb/0.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 1,
+        "image_name": "8",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/8.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/8.pth",
+        "slot": 1,
+        "source_relpath": "rgb/8.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 2,
+        "image_name": "16",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/16.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/16.pth",
+        "slot": 2,
+        "source_relpath": "rgb/16.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 3,
+        "image_name": "24",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/24.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/24.pth",
+        "slot": 3,
+        "source_relpath": "rgb/24.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 4,
+        "image_name": "32",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/32.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/32.pth",
+        "slot": 4,
+        "source_relpath": "rgb/32.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 5,
+        "image_name": "40",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/40.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/40.pth",
+        "slot": 5,
+        "source_relpath": "rgb/40.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 6,
+        "image_name": "48",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/48.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/48.pth",
+        "slot": 6,
+        "source_relpath": "rgb/48.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 7,
+        "image_name": "56",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/56.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/56.pth",
+        "slot": 7,
+        "source_relpath": "rgb/56.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 8,
+        "image_name": "64",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/64.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/64.pth",
+        "slot": 8,
+        "source_relpath": "rgb/64.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 9,
+        "image_name": "72",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/72.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/72.pth",
+        "slot": 9,
+        "source_relpath": "rgb/72.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 10,
+        "image_name": "80",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/80.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/80.pth",
+        "slot": 10,
+        "source_relpath": "rgb/80.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 11,
+        "image_name": "88",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/88.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/88.pth",
+        "slot": 11,
+        "source_relpath": "rgb/88.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 12,
+        "image_name": "96",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/96.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/96.pth",
+        "slot": 12,
+        "source_relpath": "rgb/96.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 13,
+        "image_name": "104",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/104.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/104.pth",
+        "slot": 13,
+        "source_relpath": "rgb/104.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 14,
+        "image_name": "112",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/112.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/112.pth",
+        "slot": 14,
+        "source_relpath": "rgb/112.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 15,
+        "image_name": "120",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/120.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/120.pth",
+        "slot": 15,
+        "source_relpath": "rgb/120.png",
+        "split": "test"
+      }
+    ]
+  ],
+  "train_batches": [
+    [
+      {
+        "batch_index": 0,
+        "frame_index": 0,
+        "image_name": "1",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/1.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/1.pth",
+        "slot": 0,
+        "source_relpath": "rgb/1.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 1,
+        "image_name": "2",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/2.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/2.pth",
+        "slot": 1,
+        "source_relpath": "rgb/2.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 2,
+        "image_name": "3",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/3.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/3.pth",
+        "slot": 2,
+        "source_relpath": "rgb/3.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 3,
+        "image_name": "4",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/4.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/4.pth",
+        "slot": 3,
+        "source_relpath": "rgb/4.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 4,
+        "image_name": "5",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/5.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/5.pth",
+        "slot": 4,
+        "source_relpath": "rgb/5.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 5,
+        "image_name": "6",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/6.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/6.pth",
+        "slot": 5,
+        "source_relpath": "rgb/6.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 6,
+        "image_name": "7",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/7.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/7.pth",
+        "slot": 6,
+        "source_relpath": "rgb/7.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 7,
+        "image_name": "9",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/9.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/9.pth",
+        "slot": 7,
+        "source_relpath": "rgb/9.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 8,
+        "image_name": "10",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/10.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/10.pth",
+        "slot": 8,
+        "source_relpath": "rgb/10.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 9,
+        "image_name": "11",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/11.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/11.pth",
+        "slot": 9,
+        "source_relpath": "rgb/11.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 10,
+        "image_name": "12",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/12.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/12.pth",
+        "slot": 10,
+        "source_relpath": "rgb/12.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 11,
+        "image_name": "13",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/13.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/13.pth",
+        "slot": 11,
+        "source_relpath": "rgb/13.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 12,
+        "image_name": "14",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/14.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/14.pth",
+        "slot": 12,
+        "source_relpath": "rgb/14.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 13,
+        "image_name": "15",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/15.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/15.pth",
+        "slot": 13,
+        "source_relpath": "rgb/15.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 14,
+        "image_name": "17",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/17.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/17.pth",
+        "slot": 14,
+        "source_relpath": "rgb/17.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 15,
+        "image_name": "18",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/18.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/18.pth",
+        "slot": 15,
+        "source_relpath": "rgb/18.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 16,
+        "image_name": "19",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/19.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/19.pth",
+        "slot": 16,
+        "source_relpath": "rgb/19.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 17,
+        "image_name": "20",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/20.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/20.pth",
+        "slot": 17,
+        "source_relpath": "rgb/20.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 18,
+        "image_name": "21",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/21.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/21.pth",
+        "slot": 18,
+        "source_relpath": "rgb/21.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 19,
+        "image_name": "22",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/22.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/22.pth",
+        "slot": 19,
+        "source_relpath": "rgb/22.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 1,
+        "frame_index": 20,
+        "image_name": "23",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/23.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/23.pth",
+        "slot": 0,
+        "source_relpath": "rgb/23.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 21,
+        "image_name": "25",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/25.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/25.pth",
+        "slot": 1,
+        "source_relpath": "rgb/25.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 22,
+        "image_name": "26",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/26.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/26.pth",
+        "slot": 2,
+        "source_relpath": "rgb/26.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 23,
+        "image_name": "27",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/27.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/27.pth",
+        "slot": 3,
+        "source_relpath": "rgb/27.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 24,
+        "image_name": "28",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/28.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/28.pth",
+        "slot": 4,
+        "source_relpath": "rgb/28.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 25,
+        "image_name": "29",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/29.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/29.pth",
+        "slot": 5,
+        "source_relpath": "rgb/29.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 26,
+        "image_name": "30",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/30.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/30.pth",
+        "slot": 6,
+        "source_relpath": "rgb/30.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 27,
+        "image_name": "31",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/31.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/31.pth",
+        "slot": 7,
+        "source_relpath": "rgb/31.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 28,
+        "image_name": "33",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/33.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/33.pth",
+        "slot": 8,
+        "source_relpath": "rgb/33.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 29,
+        "image_name": "34",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/34.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/34.pth",
+        "slot": 9,
+        "source_relpath": "rgb/34.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 30,
+        "image_name": "35",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/35.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/35.pth",
+        "slot": 10,
+        "source_relpath": "rgb/35.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 31,
+        "image_name": "36",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/36.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/36.pth",
+        "slot": 11,
+        "source_relpath": "rgb/36.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 32,
+        "image_name": "37",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/37.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/37.pth",
+        "slot": 12,
+        "source_relpath": "rgb/37.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 33,
+        "image_name": "38",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/38.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/38.pth",
+        "slot": 13,
+        "source_relpath": "rgb/38.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 34,
+        "image_name": "39",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/39.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/39.pth",
+        "slot": 14,
+        "source_relpath": "rgb/39.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 35,
+        "image_name": "41",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/41.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/41.pth",
+        "slot": 15,
+        "source_relpath": "rgb/41.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 36,
+        "image_name": "42",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/42.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/42.pth",
+        "slot": 16,
+        "source_relpath": "rgb/42.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 37,
+        "image_name": "43",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/43.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/43.pth",
+        "slot": 17,
+        "source_relpath": "rgb/43.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 38,
+        "image_name": "44",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/44.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/44.pth",
+        "slot": 18,
+        "source_relpath": "rgb/44.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 39,
+        "image_name": "45",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/45.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/45.pth",
+        "slot": 19,
+        "source_relpath": "rgb/45.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 2,
+        "frame_index": 40,
+        "image_name": "46",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/46.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/46.pth",
+        "slot": 0,
+        "source_relpath": "rgb/46.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 41,
+        "image_name": "47",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/47.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/47.pth",
+        "slot": 1,
+        "source_relpath": "rgb/47.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 42,
+        "image_name": "49",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/49.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/49.pth",
+        "slot": 2,
+        "source_relpath": "rgb/49.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 43,
+        "image_name": "50",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/50.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/50.pth",
+        "slot": 3,
+        "source_relpath": "rgb/50.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 44,
+        "image_name": "51",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/51.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/51.pth",
+        "slot": 4,
+        "source_relpath": "rgb/51.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 45,
+        "image_name": "52",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/52.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/52.pth",
+        "slot": 5,
+        "source_relpath": "rgb/52.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 46,
+        "image_name": "53",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/53.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/53.pth",
+        "slot": 6,
+        "source_relpath": "rgb/53.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 47,
+        "image_name": "54",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/54.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/54.pth",
+        "slot": 7,
+        "source_relpath": "rgb/54.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 48,
+        "image_name": "55",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/55.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/55.pth",
+        "slot": 8,
+        "source_relpath": "rgb/55.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 49,
+        "image_name": "57",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/57.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/57.pth",
+        "slot": 9,
+        "source_relpath": "rgb/57.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 50,
+        "image_name": "58",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/58.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/58.pth",
+        "slot": 10,
+        "source_relpath": "rgb/58.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 51,
+        "image_name": "59",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/59.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/59.pth",
+        "slot": 11,
+        "source_relpath": "rgb/59.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 52,
+        "image_name": "60",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/60.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/60.pth",
+        "slot": 12,
+        "source_relpath": "rgb/60.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 53,
+        "image_name": "61",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/61.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/61.pth",
+        "slot": 13,
+        "source_relpath": "rgb/61.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 54,
+        "image_name": "62",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/62.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/62.pth",
+        "slot": 14,
+        "source_relpath": "rgb/62.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 55,
+        "image_name": "63",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/63.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/63.pth",
+        "slot": 15,
+        "source_relpath": "rgb/63.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 56,
+        "image_name": "65",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/65.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/65.pth",
+        "slot": 16,
+        "source_relpath": "rgb/65.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 57,
+        "image_name": "66",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/66.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/66.pth",
+        "slot": 17,
+        "source_relpath": "rgb/66.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 58,
+        "image_name": "67",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/67.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/67.pth",
+        "slot": 18,
+        "source_relpath": "rgb/67.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 59,
+        "image_name": "68",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/68.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/68.pth",
+        "slot": 19,
+        "source_relpath": "rgb/68.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 3,
+        "frame_index": 60,
+        "image_name": "69",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/69.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/69.pth",
+        "slot": 0,
+        "source_relpath": "rgb/69.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 61,
+        "image_name": "70",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/70.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/70.pth",
+        "slot": 1,
+        "source_relpath": "rgb/70.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 62,
+        "image_name": "71",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/71.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/71.pth",
+        "slot": 2,
+        "source_relpath": "rgb/71.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 63,
+        "image_name": "73",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/73.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/73.pth",
+        "slot": 3,
+        "source_relpath": "rgb/73.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 64,
+        "image_name": "74",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/74.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/74.pth",
+        "slot": 4,
+        "source_relpath": "rgb/74.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 65,
+        "image_name": "75",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/75.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/75.pth",
+        "slot": 5,
+        "source_relpath": "rgb/75.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 66,
+        "image_name": "76",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/76.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/76.pth",
+        "slot": 6,
+        "source_relpath": "rgb/76.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 67,
+        "image_name": "77",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/77.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/77.pth",
+        "slot": 7,
+        "source_relpath": "rgb/77.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 68,
+        "image_name": "78",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/78.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/78.pth",
+        "slot": 8,
+        "source_relpath": "rgb/78.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 69,
+        "image_name": "79",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/79.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/79.pth",
+        "slot": 9,
+        "source_relpath": "rgb/79.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 70,
+        "image_name": "81",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/81.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/81.pth",
+        "slot": 10,
+        "source_relpath": "rgb/81.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 71,
+        "image_name": "82",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/82.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/82.pth",
+        "slot": 11,
+        "source_relpath": "rgb/82.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 72,
+        "image_name": "83",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/83.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/83.pth",
+        "slot": 12,
+        "source_relpath": "rgb/83.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 73,
+        "image_name": "84",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/84.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/84.pth",
+        "slot": 13,
+        "source_relpath": "rgb/84.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 74,
+        "image_name": "85",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/85.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/85.pth",
+        "slot": 14,
+        "source_relpath": "rgb/85.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 75,
+        "image_name": "86",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/86.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/86.pth",
+        "slot": 15,
+        "source_relpath": "rgb/86.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 76,
+        "image_name": "87",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/87.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/87.pth",
+        "slot": 16,
+        "source_relpath": "rgb/87.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 77,
+        "image_name": "89",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/89.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/89.pth",
+        "slot": 17,
+        "source_relpath": "rgb/89.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 78,
+        "image_name": "90",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/90.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/90.pth",
+        "slot": 18,
+        "source_relpath": "rgb/90.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 79,
+        "image_name": "91",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/91.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/91.pth",
+        "slot": 19,
+        "source_relpath": "rgb/91.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 4,
+        "frame_index": 80,
+        "image_name": "92",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/92.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/92.pth",
+        "slot": 0,
+        "source_relpath": "rgb/92.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 81,
+        "image_name": "93",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/93.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/93.pth",
+        "slot": 1,
+        "source_relpath": "rgb/93.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 82,
+        "image_name": "94",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/94.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/94.pth",
+        "slot": 2,
+        "source_relpath": "rgb/94.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 83,
+        "image_name": "95",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/95.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/95.pth",
+        "slot": 3,
+        "source_relpath": "rgb/95.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 84,
+        "image_name": "97",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/97.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/97.pth",
+        "slot": 4,
+        "source_relpath": "rgb/97.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 85,
+        "image_name": "98",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/98.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/98.pth",
+        "slot": 5,
+        "source_relpath": "rgb/98.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 86,
+        "image_name": "99",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/99.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/99.pth",
+        "slot": 6,
+        "source_relpath": "rgb/99.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 87,
+        "image_name": "100",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/100.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/100.pth",
+        "slot": 7,
+        "source_relpath": "rgb/100.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 88,
+        "image_name": "101",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/101.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/101.pth",
+        "slot": 8,
+        "source_relpath": "rgb/101.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 89,
+        "image_name": "102",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/102.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/102.pth",
+        "slot": 9,
+        "source_relpath": "rgb/102.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 90,
+        "image_name": "103",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/103.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/103.pth",
+        "slot": 10,
+        "source_relpath": "rgb/103.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 91,
+        "image_name": "105",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/105.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/105.pth",
+        "slot": 11,
+        "source_relpath": "rgb/105.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 92,
+        "image_name": "106",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/106.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/106.pth",
+        "slot": 12,
+        "source_relpath": "rgb/106.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 93,
+        "image_name": "107",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/107.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/107.pth",
+        "slot": 13,
+        "source_relpath": "rgb/107.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 94,
+        "image_name": "108",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/108.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/108.pth",
+        "slot": 14,
+        "source_relpath": "rgb/108.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 95,
+        "image_name": "109",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/109.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/109.pth",
+        "slot": 15,
+        "source_relpath": "rgb/109.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 96,
+        "image_name": "110",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/110.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/110.pth",
+        "slot": 16,
+        "source_relpath": "rgb/110.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 97,
+        "image_name": "111",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/111.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/111.pth",
+        "slot": 17,
+        "source_relpath": "rgb/111.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 98,
+        "image_name": "113",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/113.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/113.pth",
+        "slot": 18,
+        "source_relpath": "rgb/113.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 99,
+        "image_name": "114",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/114.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/114.pth",
+        "slot": 19,
+        "source_relpath": "rgb/114.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 5,
+        "frame_index": 100,
+        "image_name": "115",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/115.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/115.pth",
+        "slot": 0,
+        "source_relpath": "rgb/115.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 101,
+        "image_name": "116",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/116.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/116.pth",
+        "slot": 1,
+        "source_relpath": "rgb/116.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 102,
+        "image_name": "117",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/117.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/117.pth",
+        "slot": 2,
+        "source_relpath": "rgb/117.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 103,
+        "image_name": "118",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/118.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/118.pth",
+        "slot": 3,
+        "source_relpath": "rgb/118.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 104,
+        "image_name": "119",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/119.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/119.pth",
+        "slot": 4,
+        "source_relpath": "rgb/119.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 105,
+        "image_name": "121",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/121.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/121.pth",
+        "slot": 5,
+        "source_relpath": "rgb/121.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 106,
+        "image_name": "122",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/122.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/122.pth",
+        "slot": 6,
+        "source_relpath": "rgb/122.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 107,
+        "image_name": "123",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/123.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/123.pth",
+        "slot": 7,
+        "source_relpath": "rgb/123.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 108,
+        "image_name": "124",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/124.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/124.pth",
+        "slot": 8,
+        "source_relpath": "rgb/124.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 109,
+        "image_name": "125",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/125.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/125.pth",
+        "slot": 9,
+        "source_relpath": "rgb/125.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 110,
+        "image_name": "126",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/126.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/126.pth",
+        "slot": 10,
+        "source_relpath": "rgb/126.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 111,
+        "image_name": "127",
+        "normal_relpath": "Glossy/GlossySynthetic/bell_blender/normal/127.png",
+        "prior_relpath": "Glossy/GlossySynthetic/bell_blender/depth/127.pth",
+        "slot": 11,
+        "source_relpath": "rgb/127.png",
+        "split": "train"
+      }
+    ]
+  ],
+  "unique_view_count": 128
+}

@@ -1,0 +1,39 @@
+{
+  "label": "NON-CANONICAL VGGT-REGENERATED PRIORS — NOT A STRICT PAPER REPRODUCTION",
+  "overall_status": "incomplete_resource_gate",
+  "completed_scene_count": 1,
+  "required_scene_count": 14,
+  "completed_validation": {
+    "ShinySynthetic/ball": {
+      "status": "pass_reused_completed_ball",
+      "validation_log": "logs/prior_validation_ShinySynthetic_ball.json",
+      "file_count": 300,
+      "normal_file_count": 300,
+      "visualization_count": 5,
+      "depth_mean": 0.8604146786555085,
+      "depth_std": 0.10144587107855695,
+      "confidence_mean": 36.69086118196667,
+      "confidence_std": 38.96518164877958,
+      "confidence_zero_ratio": 0.0,
+      "sha256_entry_count": 300,
+      "manual_visual_review": "pass_no_obvious_flip_crop_index_error_or_background_confidence_leakage"
+    }
+  },
+  "not_generated": [
+    "ShinySynthetic/car",
+    "ShinySynthetic/coffee",
+    "ShinySynthetic/helmet",
+    "ShinySynthetic/teapot",
+    "ShinySynthetic/toaster",
+    "GlossySynthetic/angel",
+    "GlossySynthetic/bell",
+    "GlossySynthetic/cat",
+    "GlossySynthetic/horse",
+    "GlossySynthetic/luyu",
+    "GlossySynthetic/potion",
+    "GlossySynthetic/tbell",
+    "GlossySynthetic/teapot"
+  ],
+  "blocking_evidence": "failure_evidence.md"
+}
+

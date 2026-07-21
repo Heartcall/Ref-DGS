@@ -1,0 +1,23 @@
+test_diagnostic_tools (unittest.loader._FailedTest.test_diagnostic_tools) ... ERROR
+
+======================================================================
+ERROR: test_diagnostic_tools (unittest.loader._FailedTest.test_diagnostic_tools)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_diagnostic_tools
+Traceback (most recent call last):
+  File "/home/liuly/anaconda3/envs/refdgs/lib/python3.11/unittest/loader.py", line 419, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liuly/anaconda3/envs/refdgs/lib/python3.11/unittest/loader.py", line 362, in _get_module_from_name
+    __import__(name)
+  File "/home/liuly/Surface_Reconstruction/Glossy/Ref-DGS/reproduction/ref_dgs_diagnostic_vggt/20260720_151729/tests/test_diagnostic_tools.py", line 12, in <module>
+    from generate_ball_vggt_priors import image_paths_for_batch, prediction_payloads
+ModuleNotFoundError: No module named 'generate_ball_vggt_priors'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+ERROR conda.cli.main_run:execute(125): `conda run python -m unittest discover -s reproduction/ref_dgs_diagnostic_vggt/20260720_151729/tests -v` failed. (See above for error)

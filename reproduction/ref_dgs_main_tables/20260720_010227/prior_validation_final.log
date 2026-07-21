@@ -1,0 +1,38 @@
+official_revision f7a411e493f5aa621a1bd3dcf5344058cf8bfa0e
+downloaded_depth_files 1828 official_hash_match 1828 torch_load_ok 0 torch_load_failed 1828
+downloaded_normal_files 1654 normal_readable 1654 normal_failed 0
+errors {'RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory': 1828}
+per_scene depth_count hash_match load_ok normal_count
+angel_blender 128 128 0 128
+targeted_shiny_sha256
+ball 300 300 0 300
+targeted_shiny_sha256
+bell_blender 128 128 0 128
+targeted_shiny_sha256
+car 300 300 0 300
+targeted_shiny_sha256
+cat_blender 128 128 0 128
+targeted_shiny_sha256
+coffee 201 201 0 30
+targeted_shiny_sha256
+helmet 1 1 0 0
+targeted_shiny_sha256
+horse_blender 128 128 0 128
+targeted_shiny_sha256
+luyu_blender 128 128 0 128
+targeted_shiny_sha256
+potion_blender 128 128 0 128
+targeted_shiny_sha256
+tbell_blender 128 128 0 128
+targeted_shiny_sha256
+teapot 1 1 0 0
+targeted_shiny_sha256
+teapot_blender 128 128 0 128
+targeted_shiny_sha256
+toaster 1 1 0 0
+targeted_shiny_sha256
+coffee 59a9c5788f6401f1ef081c3cbaa4b6cae5bc6716dbfcee8e9370cf0d904bd09d 8388608
+helmet ce07883acc482c5aff0f6cc86bf12091ccae42e751bec8411ac281c374087877 8388608
+teapot 621e040be0cde9c236f26e42a2cdcb2af5a7679c5f063e7e9323f859375ac668 8388608
+toaster c4ebbd642fb1f470a951747bf2d58ba4e3c07a7c907bafe39b58aeaee298ae5a 8388608
+

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "run_id": "20260720_010227",
+  "repository_commit": "490dc585a2d329928363e94f5f91951a61ddee0c",
+  "canonical_status": "blocked_corrupt_official_depth_priors",
+  "blocker": {
+    "reason": "The official synthetic VGGT depth .pth objects are truncated PyTorch ZIP archives and do not contain the complete depth_map/depth_conf payload required by scene/cameras.py.",
+    "required_files": 5648,
+    "required_bytes": 25373292855,
+    "required_gib": 23.63,
+    "official_revision": "f7a411e493f5aa621a1bd3dcf5344058cf8bfa0e",
+    "download_started": true,
+    "download_complete": false,
+    "download_stopped_after_deterministic_blocker": true,
+    "downloaded_real_files": 3482,
+    "downloaded_real_bytes": 16563484949,
+    "smoke_attempted": true,
+    "smoke_exit_code": 1,
+    "official_hash_evidence": {
+      "all_downloaded_depth_files_checked": 1828,
+      "all_downloaded_depth_torch_load_ok": 0,
+      "all_downloaded_depth_hash_match": 1828,
+      "all_downloaded_normal_files_checked": 1654,
+      "all_downloaded_normal_readable": 1654,
+      "glossy_depth_files_checked": 1024,
+      "glossy_depth_torch_load_ok": 0,
+      "glossy_depth_hash_match": 1024,
+      "glossy_normal_files_checked": 1024,
+      "glossy_normal_readable": 1024,
+      "shiny_ball_depth_files_checked": 300,
+      "shiny_ball_depth_torch_load_ok": 0,
+      "shiny_ball_normal_files_checked": 300,
+      "shiny_ball_normal_readable": 300,
+      "ball_r0_sha256": "ffb6a3d71d86d3ee9cebdc80aaa93a9f4f472e4fe741ab25b424652bfb0b1cac",
+      "angel_0_sha256": "356c651bd80a4d9542f8324a76a03a66f14374c515b22260c339f2586f4dd33e",
+      "coffee_r0_sha256": "59a9c5788f6401f1ef081c3cbaa4b6cae5bc6716dbfcee8e9370cf0d904bd09d",
+      "helmet_r0_sha256": "ce07883acc482c5aff0f6cc86bf12091ccae42e751bec8411ac281c374087877",
+      "teapot_r0_sha256": "621e040be0cde9c236f26e42a2cdcb2af5a7679c5f063e7e9323f859375ac668",
+      "toaster_r0_sha256": "c4ebbd642fb1f470a951747bf2d58ba4e3c07a7c907bafe39b58aeaee298ae5a"
+    }
+  },
+  "paper": {
+    "table_1": {
+      "dataset": "ShinySynthetic",
+      "scenes": ["ball", "car", "coffee", "helmet", "teapot", "toaster"],
+      "normal_mae_deg": [0.61, 1.72, 1.86, 1.35, 0.58, 2.43],
+      "normal_mae_mean_deg": 1.43,
+      "training_time_mean_min": 12.6
+    },
+    "table_2": {
+      "dataset": "GlossySynthetic",
+      "scenes": ["angel", "bell", "cat", "horse", "luyu", "potion", "tbell", "teapot"],
+      "cd_x1e2": [0.38, 0.65, 0.93, 0.42, 0.64, 0.66, 0.52, 0.79],
+      "cd_x1e2_mean": 0.62,
+      "normal_mae_deg": [2.05, 0.71, 1.37, 3.44, 2.30, 2.48, 1.84, 0.86],
+      "normal_mae_mean_deg": 1.88
+    },
+    "table_3": {
+      "ShinySynthetic": {"psnr_db": 35.21, "ssim": 0.975, "lpips_vgg": 0.053},
+      "GlossySynthetic": {"psnr_db": 30.63, "ssim": 0.958, "lpips_vgg": 0.052}
+    },
+    "table_4": {"dataset": "ShinySynthetic", "fps": 76.34}
+  },
+  "reproduced": {
+    "table_1": null,
+    "table_2": null,
+    "table_3": null,
+    "table_4": null
+  },
+  "artifacts": {
+    "checkpoints": [],
+    "renders": [],
+    "normals": [],
+    "meshes": [],
+    "logs": [
+      "logs/prior_download.log",
+      "logs/prior_download_w8.log",
+      "logs/prior_download_retry_w2.log",
+      "logs/prior_download_retry_w4.log",
+      "logs/prior_download_retry2_w2.log",
+      "logs/prior_download_targeted_shiny_r0.log",
+      "logs/smoke_ball_i2_train.log",
+      "logs/smoke_ball_i2_train.exitcode",
+      "prior_validation_final.log",
+      "audit/staging_validation.txt"
+    ]
+  }
+}

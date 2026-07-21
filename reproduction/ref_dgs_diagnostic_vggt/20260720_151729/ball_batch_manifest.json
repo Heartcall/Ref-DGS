@@ -1,0 +1,1842 @@
+{
+  "protocol": "recovered_from_intact_official_pickle_metadata",
+  "frame_shape": [
+    518,
+    518
+  ],
+  "views_per_batch": 20,
+  "train_batches": [
+    [
+      {
+        "image_name": "r_79",
+        "frame_number": 79,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_79.pth"
+      },
+      {
+        "image_name": "r_60",
+        "frame_number": 60,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_60.pth"
+      },
+      {
+        "image_name": "r_74",
+        "frame_number": 74,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_74.pth"
+      },
+      {
+        "image_name": "r_75",
+        "frame_number": 75,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_75.pth"
+      },
+      {
+        "image_name": "r_53",
+        "frame_number": 53,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_53.pth"
+      },
+      {
+        "image_name": "r_81",
+        "frame_number": 81,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_81.pth"
+      },
+      {
+        "image_name": "r_47",
+        "frame_number": 47,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_47.pth"
+      },
+      {
+        "image_name": "r_15",
+        "frame_number": 15,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_15.pth"
+      },
+      {
+        "image_name": "r_24",
+        "frame_number": 24,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_24.pth"
+      },
+      {
+        "image_name": "r_18",
+        "frame_number": 18,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_18.pth"
+      },
+      {
+        "image_name": "r_7",
+        "frame_number": 7,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_7.pth"
+      },
+      {
+        "image_name": "r_2",
+        "frame_number": 2,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_2.pth"
+      },
+      {
+        "image_name": "r_26",
+        "frame_number": 26,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_26.pth"
+      },
+      {
+        "image_name": "r_55",
+        "frame_number": 55,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_55.pth"
+      },
+      {
+        "image_name": "r_98",
+        "frame_number": 98,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_98.pth"
+      },
+      {
+        "image_name": "r_0",
+        "frame_number": 0,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_0.pth"
+      },
+      {
+        "image_name": "r_58",
+        "frame_number": 58,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_58.pth"
+      },
+      {
+        "image_name": "r_73",
+        "frame_number": 73,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_73.pth"
+      },
+      {
+        "image_name": "r_16",
+        "frame_number": 16,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_16.pth"
+      },
+      {
+        "image_name": "r_97",
+        "frame_number": 97,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_97.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_22",
+        "frame_number": 22,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_22.pth"
+      },
+      {
+        "image_name": "r_82",
+        "frame_number": 82,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_82.pth"
+      },
+      {
+        "image_name": "r_62",
+        "frame_number": 62,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_62.pth"
+      },
+      {
+        "image_name": "r_50",
+        "frame_number": 50,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_50.pth"
+      },
+      {
+        "image_name": "r_92",
+        "frame_number": 92,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_92.pth"
+      },
+      {
+        "image_name": "r_52",
+        "frame_number": 52,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_52.pth"
+      },
+      {
+        "image_name": "r_1",
+        "frame_number": 1,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_1.pth"
+      },
+      {
+        "image_name": "r_83",
+        "frame_number": 83,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_83.pth"
+      },
+      {
+        "image_name": "r_78",
+        "frame_number": 78,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_78.pth"
+      },
+      {
+        "image_name": "r_54",
+        "frame_number": 54,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_54.pth"
+      },
+      {
+        "image_name": "r_5",
+        "frame_number": 5,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_5.pth"
+      },
+      {
+        "image_name": "r_88",
+        "frame_number": 88,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_88.pth"
+      },
+      {
+        "image_name": "r_96",
+        "frame_number": 96,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_96.pth"
+      },
+      {
+        "image_name": "r_31",
+        "frame_number": 31,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_31.pth"
+      },
+      {
+        "image_name": "r_67",
+        "frame_number": 67,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_67.pth"
+      },
+      {
+        "image_name": "r_66",
+        "frame_number": 66,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_66.pth"
+      },
+      {
+        "image_name": "r_45",
+        "frame_number": 45,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_45.pth"
+      },
+      {
+        "image_name": "r_21",
+        "frame_number": 21,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_21.pth"
+      },
+      {
+        "image_name": "r_36",
+        "frame_number": 36,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_36.pth"
+      },
+      {
+        "image_name": "r_17",
+        "frame_number": 17,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_17.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_63",
+        "frame_number": 63,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_63.pth"
+      },
+      {
+        "image_name": "r_44",
+        "frame_number": 44,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_44.pth"
+      },
+      {
+        "image_name": "r_90",
+        "frame_number": 90,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_90.pth"
+      },
+      {
+        "image_name": "r_89",
+        "frame_number": 89,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_89.pth"
+      },
+      {
+        "image_name": "r_43",
+        "frame_number": 43,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_43.pth"
+      },
+      {
+        "image_name": "r_65",
+        "frame_number": 65,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_65.pth"
+      },
+      {
+        "image_name": "r_71",
+        "frame_number": 71,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_71.pth"
+      },
+      {
+        "image_name": "r_29",
+        "frame_number": 29,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_29.pth"
+      },
+      {
+        "image_name": "r_11",
+        "frame_number": 11,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_11.pth"
+      },
+      {
+        "image_name": "r_19",
+        "frame_number": 19,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_19.pth"
+      },
+      {
+        "image_name": "r_39",
+        "frame_number": 39,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_39.pth"
+      },
+      {
+        "image_name": "r_57",
+        "frame_number": 57,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_57.pth"
+      },
+      {
+        "image_name": "r_70",
+        "frame_number": 70,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_70.pth"
+      },
+      {
+        "image_name": "r_72",
+        "frame_number": 72,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_72.pth"
+      },
+      {
+        "image_name": "r_40",
+        "frame_number": 40,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_40.pth"
+      },
+      {
+        "image_name": "r_64",
+        "frame_number": 64,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_64.pth"
+      },
+      {
+        "image_name": "r_3",
+        "frame_number": 3,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_3.pth"
+      },
+      {
+        "image_name": "r_14",
+        "frame_number": 14,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_14.pth"
+      },
+      {
+        "image_name": "r_8",
+        "frame_number": 8,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_8.pth"
+      },
+      {
+        "image_name": "r_23",
+        "frame_number": 23,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_23.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_9",
+        "frame_number": 9,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_9.pth"
+      },
+      {
+        "image_name": "r_95",
+        "frame_number": 95,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_95.pth"
+      },
+      {
+        "image_name": "r_42",
+        "frame_number": 42,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_42.pth"
+      },
+      {
+        "image_name": "r_38",
+        "frame_number": 38,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_38.pth"
+      },
+      {
+        "image_name": "r_56",
+        "frame_number": 56,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_56.pth"
+      },
+      {
+        "image_name": "r_61",
+        "frame_number": 61,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_61.pth"
+      },
+      {
+        "image_name": "r_27",
+        "frame_number": 27,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_27.pth"
+      },
+      {
+        "image_name": "r_49",
+        "frame_number": 49,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_49.pth"
+      },
+      {
+        "image_name": "r_68",
+        "frame_number": 68,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_68.pth"
+      },
+      {
+        "image_name": "r_4",
+        "frame_number": 4,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_4.pth"
+      },
+      {
+        "image_name": "r_25",
+        "frame_number": 25,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_25.pth"
+      },
+      {
+        "image_name": "r_94",
+        "frame_number": 94,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_94.pth"
+      },
+      {
+        "image_name": "r_10",
+        "frame_number": 10,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_10.pth"
+      },
+      {
+        "image_name": "r_48",
+        "frame_number": 48,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_48.pth"
+      },
+      {
+        "image_name": "r_51",
+        "frame_number": 51,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_51.pth"
+      },
+      {
+        "image_name": "r_93",
+        "frame_number": 93,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_93.pth"
+      },
+      {
+        "image_name": "r_34",
+        "frame_number": 34,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_34.pth"
+      },
+      {
+        "image_name": "r_46",
+        "frame_number": 46,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_46.pth"
+      },
+      {
+        "image_name": "r_28",
+        "frame_number": 28,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_28.pth"
+      },
+      {
+        "image_name": "r_80",
+        "frame_number": 80,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_80.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_12",
+        "frame_number": 12,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_12.pth"
+      },
+      {
+        "image_name": "r_41",
+        "frame_number": 41,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_41.pth"
+      },
+      {
+        "image_name": "r_32",
+        "frame_number": 32,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_32.pth"
+      },
+      {
+        "image_name": "r_91",
+        "frame_number": 91,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_91.pth"
+      },
+      {
+        "image_name": "r_99",
+        "frame_number": 99,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_99.pth"
+      },
+      {
+        "image_name": "r_87",
+        "frame_number": 87,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_87.pth"
+      },
+      {
+        "image_name": "r_6",
+        "frame_number": 6,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_6.pth"
+      },
+      {
+        "image_name": "r_20",
+        "frame_number": 20,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_20.pth"
+      },
+      {
+        "image_name": "r_77",
+        "frame_number": 77,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_77.pth"
+      },
+      {
+        "image_name": "r_59",
+        "frame_number": 59,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_59.pth"
+      },
+      {
+        "image_name": "r_84",
+        "frame_number": 84,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_84.pth"
+      },
+      {
+        "image_name": "r_13",
+        "frame_number": 13,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_13.pth"
+      },
+      {
+        "image_name": "r_33",
+        "frame_number": 33,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_33.pth"
+      },
+      {
+        "image_name": "r_37",
+        "frame_number": 37,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_37.pth"
+      },
+      {
+        "image_name": "r_30",
+        "frame_number": 30,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_30.pth"
+      },
+      {
+        "image_name": "r_85",
+        "frame_number": 85,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_85.pth"
+      },
+      {
+        "image_name": "r_69",
+        "frame_number": 69,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_69.pth"
+      },
+      {
+        "image_name": "r_35",
+        "frame_number": 35,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_35.pth"
+      },
+      {
+        "image_name": "r_86",
+        "frame_number": 86,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_86.pth"
+      },
+      {
+        "image_name": "r_76",
+        "frame_number": 76,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/train/depth/r_76.pth"
+      }
+    ]
+  ],
+  "test_batches": [
+    [
+      {
+        "image_name": "r_106",
+        "frame_number": 106,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_106.pth"
+      },
+      {
+        "image_name": "r_76",
+        "frame_number": 76,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_76.pth"
+      },
+      {
+        "image_name": "r_163",
+        "frame_number": 163,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_163.pth"
+      },
+      {
+        "image_name": "r_175",
+        "frame_number": 175,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_175.pth"
+      },
+      {
+        "image_name": "r_119",
+        "frame_number": 119,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_119.pth"
+      },
+      {
+        "image_name": "r_97",
+        "frame_number": 97,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_97.pth"
+      },
+      {
+        "image_name": "r_35",
+        "frame_number": 35,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_35.pth"
+      },
+      {
+        "image_name": "r_186",
+        "frame_number": 186,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_186.pth"
+      },
+      {
+        "image_name": "r_53",
+        "frame_number": 53,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_53.pth"
+      },
+      {
+        "image_name": "r_13",
+        "frame_number": 13,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_13.pth"
+      },
+      {
+        "image_name": "r_44",
+        "frame_number": 44,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_44.pth"
+      },
+      {
+        "image_name": "r_10",
+        "frame_number": 10,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_10.pth"
+      },
+      {
+        "image_name": "r_193",
+        "frame_number": 193,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_193.pth"
+      },
+      {
+        "image_name": "r_185",
+        "frame_number": 185,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_185.pth"
+      },
+      {
+        "image_name": "r_54",
+        "frame_number": 54,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_54.pth"
+      },
+      {
+        "image_name": "r_136",
+        "frame_number": 136,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_136.pth"
+      },
+      {
+        "image_name": "r_82",
+        "frame_number": 82,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_82.pth"
+      },
+      {
+        "image_name": "r_171",
+        "frame_number": 171,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_171.pth"
+      },
+      {
+        "image_name": "r_56",
+        "frame_number": 56,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_56.pth"
+      },
+      {
+        "image_name": "r_0",
+        "frame_number": 0,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_0.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_154",
+        "frame_number": 154,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_154.pth"
+      },
+      {
+        "image_name": "r_98",
+        "frame_number": 98,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_98.pth"
+      },
+      {
+        "image_name": "r_146",
+        "frame_number": 146,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_146.pth"
+      },
+      {
+        "image_name": "r_183",
+        "frame_number": 183,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_183.pth"
+      },
+      {
+        "image_name": "r_37",
+        "frame_number": 37,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_37.pth"
+      },
+      {
+        "image_name": "r_160",
+        "frame_number": 160,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_160.pth"
+      },
+      {
+        "image_name": "r_46",
+        "frame_number": 46,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_46.pth"
+      },
+      {
+        "image_name": "r_118",
+        "frame_number": 118,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_118.pth"
+      },
+      {
+        "image_name": "r_2",
+        "frame_number": 2,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_2.pth"
+      },
+      {
+        "image_name": "r_64",
+        "frame_number": 64,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_64.pth"
+      },
+      {
+        "image_name": "r_131",
+        "frame_number": 131,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_131.pth"
+      },
+      {
+        "image_name": "r_158",
+        "frame_number": 158,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_158.pth"
+      },
+      {
+        "image_name": "r_1",
+        "frame_number": 1,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_1.pth"
+      },
+      {
+        "image_name": "r_110",
+        "frame_number": 110,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_110.pth"
+      },
+      {
+        "image_name": "r_5",
+        "frame_number": 5,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_5.pth"
+      },
+      {
+        "image_name": "r_177",
+        "frame_number": 177,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_177.pth"
+      },
+      {
+        "image_name": "r_27",
+        "frame_number": 27,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_27.pth"
+      },
+      {
+        "image_name": "r_130",
+        "frame_number": 130,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_130.pth"
+      },
+      {
+        "image_name": "r_14",
+        "frame_number": 14,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_14.pth"
+      },
+      {
+        "image_name": "r_89",
+        "frame_number": 89,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_89.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_143",
+        "frame_number": 143,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_143.pth"
+      },
+      {
+        "image_name": "r_3",
+        "frame_number": 3,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_3.pth"
+      },
+      {
+        "image_name": "r_182",
+        "frame_number": 182,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_182.pth"
+      },
+      {
+        "image_name": "r_103",
+        "frame_number": 103,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_103.pth"
+      },
+      {
+        "image_name": "r_83",
+        "frame_number": 83,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_83.pth"
+      },
+      {
+        "image_name": "r_148",
+        "frame_number": 148,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_148.pth"
+      },
+      {
+        "image_name": "r_192",
+        "frame_number": 192,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_192.pth"
+      },
+      {
+        "image_name": "r_190",
+        "frame_number": 190,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_190.pth"
+      },
+      {
+        "image_name": "r_18",
+        "frame_number": 18,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_18.pth"
+      },
+      {
+        "image_name": "r_152",
+        "frame_number": 152,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_152.pth"
+      },
+      {
+        "image_name": "r_63",
+        "frame_number": 63,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_63.pth"
+      },
+      {
+        "image_name": "r_140",
+        "frame_number": 140,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_140.pth"
+      },
+      {
+        "image_name": "r_32",
+        "frame_number": 32,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_32.pth"
+      },
+      {
+        "image_name": "r_40",
+        "frame_number": 40,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_40.pth"
+      },
+      {
+        "image_name": "r_129",
+        "frame_number": 129,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_129.pth"
+      },
+      {
+        "image_name": "r_73",
+        "frame_number": 73,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_73.pth"
+      },
+      {
+        "image_name": "r_22",
+        "frame_number": 22,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_22.pth"
+      },
+      {
+        "image_name": "r_99",
+        "frame_number": 99,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_99.pth"
+      },
+      {
+        "image_name": "r_47",
+        "frame_number": 47,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_47.pth"
+      },
+      {
+        "image_name": "r_135",
+        "frame_number": 135,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_135.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_139",
+        "frame_number": 139,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_139.pth"
+      },
+      {
+        "image_name": "r_67",
+        "frame_number": 67,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_67.pth"
+      },
+      {
+        "image_name": "r_142",
+        "frame_number": 142,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_142.pth"
+      },
+      {
+        "image_name": "r_197",
+        "frame_number": 197,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_197.pth"
+      },
+      {
+        "image_name": "r_75",
+        "frame_number": 75,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_75.pth"
+      },
+      {
+        "image_name": "r_155",
+        "frame_number": 155,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_155.pth"
+      },
+      {
+        "image_name": "r_114",
+        "frame_number": 114,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_114.pth"
+      },
+      {
+        "image_name": "r_4",
+        "frame_number": 4,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_4.pth"
+      },
+      {
+        "image_name": "r_19",
+        "frame_number": 19,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_19.pth"
+      },
+      {
+        "image_name": "r_51",
+        "frame_number": 51,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_51.pth"
+      },
+      {
+        "image_name": "r_157",
+        "frame_number": 157,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_157.pth"
+      },
+      {
+        "image_name": "r_194",
+        "frame_number": 194,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_194.pth"
+      },
+      {
+        "image_name": "r_156",
+        "frame_number": 156,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_156.pth"
+      },
+      {
+        "image_name": "r_9",
+        "frame_number": 9,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_9.pth"
+      },
+      {
+        "image_name": "r_141",
+        "frame_number": 141,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_141.pth"
+      },
+      {
+        "image_name": "r_149",
+        "frame_number": 149,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_149.pth"
+      },
+      {
+        "image_name": "r_90",
+        "frame_number": 90,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_90.pth"
+      },
+      {
+        "image_name": "r_66",
+        "frame_number": 66,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_66.pth"
+      },
+      {
+        "image_name": "r_80",
+        "frame_number": 80,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_80.pth"
+      },
+      {
+        "image_name": "r_94",
+        "frame_number": 94,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_94.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_77",
+        "frame_number": 77,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_77.pth"
+      },
+      {
+        "image_name": "r_199",
+        "frame_number": 199,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_199.pth"
+      },
+      {
+        "image_name": "r_127",
+        "frame_number": 127,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_127.pth"
+      },
+      {
+        "image_name": "r_26",
+        "frame_number": 26,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_26.pth"
+      },
+      {
+        "image_name": "r_121",
+        "frame_number": 121,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_121.pth"
+      },
+      {
+        "image_name": "r_8",
+        "frame_number": 8,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_8.pth"
+      },
+      {
+        "image_name": "r_123",
+        "frame_number": 123,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_123.pth"
+      },
+      {
+        "image_name": "r_159",
+        "frame_number": 159,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_159.pth"
+      },
+      {
+        "image_name": "r_144",
+        "frame_number": 144,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_144.pth"
+      },
+      {
+        "image_name": "r_189",
+        "frame_number": 189,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_189.pth"
+      },
+      {
+        "image_name": "r_164",
+        "frame_number": 164,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_164.pth"
+      },
+      {
+        "image_name": "r_195",
+        "frame_number": 195,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_195.pth"
+      },
+      {
+        "image_name": "r_78",
+        "frame_number": 78,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_78.pth"
+      },
+      {
+        "image_name": "r_92",
+        "frame_number": 92,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_92.pth"
+      },
+      {
+        "image_name": "r_62",
+        "frame_number": 62,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_62.pth"
+      },
+      {
+        "image_name": "r_81",
+        "frame_number": 81,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_81.pth"
+      },
+      {
+        "image_name": "r_6",
+        "frame_number": 6,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_6.pth"
+      },
+      {
+        "image_name": "r_181",
+        "frame_number": 181,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_181.pth"
+      },
+      {
+        "image_name": "r_33",
+        "frame_number": 33,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_33.pth"
+      },
+      {
+        "image_name": "r_58",
+        "frame_number": 58,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_58.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_132",
+        "frame_number": 132,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_132.pth"
+      },
+      {
+        "image_name": "r_165",
+        "frame_number": 165,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_165.pth"
+      },
+      {
+        "image_name": "r_16",
+        "frame_number": 16,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_16.pth"
+      },
+      {
+        "image_name": "r_101",
+        "frame_number": 101,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_101.pth"
+      },
+      {
+        "image_name": "r_86",
+        "frame_number": 86,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_86.pth"
+      },
+      {
+        "image_name": "r_188",
+        "frame_number": 188,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_188.pth"
+      },
+      {
+        "image_name": "r_84",
+        "frame_number": 84,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_84.pth"
+      },
+      {
+        "image_name": "r_120",
+        "frame_number": 120,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_120.pth"
+      },
+      {
+        "image_name": "r_7",
+        "frame_number": 7,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_7.pth"
+      },
+      {
+        "image_name": "r_88",
+        "frame_number": 88,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_88.pth"
+      },
+      {
+        "image_name": "r_79",
+        "frame_number": 79,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_79.pth"
+      },
+      {
+        "image_name": "r_150",
+        "frame_number": 150,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_150.pth"
+      },
+      {
+        "image_name": "r_50",
+        "frame_number": 50,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_50.pth"
+      },
+      {
+        "image_name": "r_126",
+        "frame_number": 126,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_126.pth"
+      },
+      {
+        "image_name": "r_137",
+        "frame_number": 137,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_137.pth"
+      },
+      {
+        "image_name": "r_93",
+        "frame_number": 93,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_93.pth"
+      },
+      {
+        "image_name": "r_31",
+        "frame_number": 31,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_31.pth"
+      },
+      {
+        "image_name": "r_85",
+        "frame_number": 85,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_85.pth"
+      },
+      {
+        "image_name": "r_24",
+        "frame_number": 24,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_24.pth"
+      },
+      {
+        "image_name": "r_173",
+        "frame_number": 173,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_173.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_117",
+        "frame_number": 117,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_117.pth"
+      },
+      {
+        "image_name": "r_102",
+        "frame_number": 102,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_102.pth"
+      },
+      {
+        "image_name": "r_61",
+        "frame_number": 61,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_61.pth"
+      },
+      {
+        "image_name": "r_198",
+        "frame_number": 198,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_198.pth"
+      },
+      {
+        "image_name": "r_34",
+        "frame_number": 34,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_34.pth"
+      },
+      {
+        "image_name": "r_23",
+        "frame_number": 23,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_23.pth"
+      },
+      {
+        "image_name": "r_191",
+        "frame_number": 191,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_191.pth"
+      },
+      {
+        "image_name": "r_111",
+        "frame_number": 111,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_111.pth"
+      },
+      {
+        "image_name": "r_105",
+        "frame_number": 105,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_105.pth"
+      },
+      {
+        "image_name": "r_169",
+        "frame_number": 169,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_169.pth"
+      },
+      {
+        "image_name": "r_45",
+        "frame_number": 45,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_45.pth"
+      },
+      {
+        "image_name": "r_70",
+        "frame_number": 70,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_70.pth"
+      },
+      {
+        "image_name": "r_95",
+        "frame_number": 95,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_95.pth"
+      },
+      {
+        "image_name": "r_43",
+        "frame_number": 43,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_43.pth"
+      },
+      {
+        "image_name": "r_11",
+        "frame_number": 11,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_11.pth"
+      },
+      {
+        "image_name": "r_128",
+        "frame_number": 128,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_128.pth"
+      },
+      {
+        "image_name": "r_122",
+        "frame_number": 122,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_122.pth"
+      },
+      {
+        "image_name": "r_96",
+        "frame_number": 96,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_96.pth"
+      },
+      {
+        "image_name": "r_48",
+        "frame_number": 48,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_48.pth"
+      },
+      {
+        "image_name": "r_91",
+        "frame_number": 91,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_91.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_174",
+        "frame_number": 174,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_174.pth"
+      },
+      {
+        "image_name": "r_115",
+        "frame_number": 115,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_115.pth"
+      },
+      {
+        "image_name": "r_25",
+        "frame_number": 25,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_25.pth"
+      },
+      {
+        "image_name": "r_147",
+        "frame_number": 147,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_147.pth"
+      },
+      {
+        "image_name": "r_108",
+        "frame_number": 108,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_108.pth"
+      },
+      {
+        "image_name": "r_125",
+        "frame_number": 125,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_125.pth"
+      },
+      {
+        "image_name": "r_49",
+        "frame_number": 49,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_49.pth"
+      },
+      {
+        "image_name": "r_12",
+        "frame_number": 12,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_12.pth"
+      },
+      {
+        "image_name": "r_107",
+        "frame_number": 107,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_107.pth"
+      },
+      {
+        "image_name": "r_15",
+        "frame_number": 15,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_15.pth"
+      },
+      {
+        "image_name": "r_170",
+        "frame_number": 170,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_170.pth"
+      },
+      {
+        "image_name": "r_187",
+        "frame_number": 187,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_187.pth"
+      },
+      {
+        "image_name": "r_162",
+        "frame_number": 162,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_162.pth"
+      },
+      {
+        "image_name": "r_100",
+        "frame_number": 100,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_100.pth"
+      },
+      {
+        "image_name": "r_20",
+        "frame_number": 20,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_20.pth"
+      },
+      {
+        "image_name": "r_41",
+        "frame_number": 41,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_41.pth"
+      },
+      {
+        "image_name": "r_138",
+        "frame_number": 138,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_138.pth"
+      },
+      {
+        "image_name": "r_184",
+        "frame_number": 184,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_184.pth"
+      },
+      {
+        "image_name": "r_161",
+        "frame_number": 161,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_161.pth"
+      },
+      {
+        "image_name": "r_196",
+        "frame_number": 196,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_196.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_68",
+        "frame_number": 68,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_68.pth"
+      },
+      {
+        "image_name": "r_74",
+        "frame_number": 74,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_74.pth"
+      },
+      {
+        "image_name": "r_17",
+        "frame_number": 17,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_17.pth"
+      },
+      {
+        "image_name": "r_176",
+        "frame_number": 176,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_176.pth"
+      },
+      {
+        "image_name": "r_145",
+        "frame_number": 145,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_145.pth"
+      },
+      {
+        "image_name": "r_42",
+        "frame_number": 42,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_42.pth"
+      },
+      {
+        "image_name": "r_104",
+        "frame_number": 104,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_104.pth"
+      },
+      {
+        "image_name": "r_60",
+        "frame_number": 60,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_60.pth"
+      },
+      {
+        "image_name": "r_65",
+        "frame_number": 65,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_65.pth"
+      },
+      {
+        "image_name": "r_39",
+        "frame_number": 39,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_39.pth"
+      },
+      {
+        "image_name": "r_178",
+        "frame_number": 178,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_178.pth"
+      },
+      {
+        "image_name": "r_109",
+        "frame_number": 109,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_109.pth"
+      },
+      {
+        "image_name": "r_59",
+        "frame_number": 59,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_59.pth"
+      },
+      {
+        "image_name": "r_72",
+        "frame_number": 72,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_72.pth"
+      },
+      {
+        "image_name": "r_133",
+        "frame_number": 133,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_133.pth"
+      },
+      {
+        "image_name": "r_179",
+        "frame_number": 179,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_179.pth"
+      },
+      {
+        "image_name": "r_172",
+        "frame_number": 172,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_172.pth"
+      },
+      {
+        "image_name": "r_112",
+        "frame_number": 112,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_112.pth"
+      },
+      {
+        "image_name": "r_87",
+        "frame_number": 87,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_87.pth"
+      },
+      {
+        "image_name": "r_180",
+        "frame_number": 180,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_180.pth"
+      }
+    ],
+    [
+      {
+        "image_name": "r_124",
+        "frame_number": 124,
+        "slot": 0,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_124.pth"
+      },
+      {
+        "image_name": "r_36",
+        "frame_number": 36,
+        "slot": 1,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_36.pth"
+      },
+      {
+        "image_name": "r_151",
+        "frame_number": 151,
+        "slot": 2,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_151.pth"
+      },
+      {
+        "image_name": "r_55",
+        "frame_number": 55,
+        "slot": 3,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_55.pth"
+      },
+      {
+        "image_name": "r_30",
+        "frame_number": 30,
+        "slot": 4,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_30.pth"
+      },
+      {
+        "image_name": "r_52",
+        "frame_number": 52,
+        "slot": 5,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_52.pth"
+      },
+      {
+        "image_name": "r_153",
+        "frame_number": 153,
+        "slot": 6,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_153.pth"
+      },
+      {
+        "image_name": "r_168",
+        "frame_number": 168,
+        "slot": 7,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_168.pth"
+      },
+      {
+        "image_name": "r_71",
+        "frame_number": 71,
+        "slot": 8,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_71.pth"
+      },
+      {
+        "image_name": "r_167",
+        "frame_number": 167,
+        "slot": 9,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_167.pth"
+      },
+      {
+        "image_name": "r_116",
+        "frame_number": 116,
+        "slot": 10,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_116.pth"
+      },
+      {
+        "image_name": "r_21",
+        "frame_number": 21,
+        "slot": 11,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_21.pth"
+      },
+      {
+        "image_name": "r_57",
+        "frame_number": 57,
+        "slot": 12,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_57.pth"
+      },
+      {
+        "image_name": "r_166",
+        "frame_number": 166,
+        "slot": 13,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_166.pth"
+      },
+      {
+        "image_name": "r_28",
+        "frame_number": 28,
+        "slot": 14,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_28.pth"
+      },
+      {
+        "image_name": "r_113",
+        "frame_number": 113,
+        "slot": 15,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_113.pth"
+      },
+      {
+        "image_name": "r_38",
+        "frame_number": 38,
+        "slot": 16,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_38.pth"
+      },
+      {
+        "image_name": "r_69",
+        "frame_number": 69,
+        "slot": 17,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_69.pth"
+      },
+      {
+        "image_name": "r_29",
+        "frame_number": 29,
+        "slot": 18,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_29.pth"
+      },
+      {
+        "image_name": "r_134",
+        "frame_number": 134,
+        "slot": 19,
+        "official_prior_path": "/data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227/priors/Ref-NeRF/refnerf/ball/test/depth/r_134.pth"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,3 @@
+label,dataset,scene,status,exit_code,iteration_1,iteration_2,prior_loss_enabled,total_loss_finite,depth_loss_finite,normal_loss_finite,notes
+NON-CANONICAL VGGT-REGENERATED PRIORS,ALL,ALL,incomplete_resource_gate,,,,,,,,Phase B not launched because Phase A could not pass the resource gate
+

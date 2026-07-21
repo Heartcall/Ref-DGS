@@ -1,0 +1,16 @@
+label,dataset,scene,expected_views,generated_or_reused_views,validation_status,depth_mean,depth_std,confidence_mean,confidence_std,visualizations,notes
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,ball,300,300,pass_reused_completed_ball,0.8604146786555085,0.10144587107855695,36.69086118196667,38.96518164877958,5,full schema numeric hash camera normal and manual visual checks passed
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,car,300,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,coffee,300,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,helmet,300,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,teapot,300,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,toaster,300,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,angel,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,bell,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,cat,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,horse,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,luyu,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,potion,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,tbell,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,teapot,128,0,incomplete_resource_gate,,,,,0,GPU generation not launched
+

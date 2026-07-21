@@ -1,0 +1,4 @@
+# ninja log v5
+0	10002	1784463014427337048	/home/liuly/Surface_Reconstruction/Glossy/Ref-DGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-311/simple_knn.o	8097e59d42bd6ab
+0	17718	1784463022179333610	/home/liuly/Surface_Reconstruction/Glossy/Ref-DGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-311/ext.o	3508c6f1bcb682e
+0	45967	1784463050367321229	/home/liuly/Surface_Reconstruction/Glossy/Ref-DGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-311/spatial.o	c5a2bb6c428a7bf1

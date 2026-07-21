@@ -1,0 +1,12 @@
+{
+  "label": "NON-CANONICAL VGGT-REGENERATED PRIORS — NOT A STRICT PAPER REPRODUCTION",
+  "status": "incomplete_resource_gate",
+  "config_id": "vggt_a288dd0_d15bf50_crop518_bf16_group20_v1",
+  "training_launched": false,
+  "rendering_launched": false,
+  "evaluation_launched": false,
+  "paper_table_reproduction_claim": false,
+  "metrics": [],
+  "blocking_evidence": "failure_evidence.md"
+}
+

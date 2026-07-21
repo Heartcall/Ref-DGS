@@ -1,0 +1,68 @@
+Ref-DGS main-table reproduction environment audit
+Captured: 2026-07-20 01:02:27 +0800
+
+Repository
+  path: /home/liuly/Surface_Reconstruction/Glossy/Ref-DGS
+  remote: https://github.com/njfan/Ref-DGS.git
+  branch: main
+  HEAD: 490dc585a2d329928363e94f5f91951a61ddee0c
+  origin/main: 490dc585a2d329928363e94f5f91951a61ddee0c
+  submodule status: no registered git submodules (git submodule status --recursive returned empty)
+  pre-existing untracked paths:
+    nvdiffrast/
+    submodules/diff-surfel-2dgs/diff_surfel_2dgs.egg-info/
+    submodules/diff-surfel-rasterization-feature/diff_surfel_rasterization_feature.egg-info/
+    submodules/diff-surfel-rasterization-real/diff_surfel_rasterization_real.egg-info/
+    submodules/simple-knn/build/
+    submodules/simple-knn/simple_knn.egg-info/
+
+Host GPU (sandbox-external read-only check)
+  driver: 535.247.01
+  GPU 0-3: NVIDIA RTX A5000, 24564 MiB each
+  GPU 4-7: NVIDIA GeForce RTX 3090 Ti, 24564 MiB each
+  audit occupancy: GPUs 0-5 and 7 at 3 MiB; GPU 6 at 2670 MiB by python PID 233646
+  refdgs torch CUDA visibility outside sandbox: true, 8 devices
+  paper hardware: one NVIDIA RTX 4090 24 GB
+
+Software
+  conda env: refdgs
+  interpreter: /home/liuly/anaconda3/envs/refdgs/bin/python
+  Python: 3.11.15 (GCC 14.3.0 build)
+  PyTorch: 2.5.1+cu118
+  torchvision: 0.20.1+cu118
+  PyTorch CUDA runtime: 11.8
+  cuDNN: 90100
+  host nvcc: 11.6 (V11.6.55)
+  host gcc: 9.4.0
+  NumPy: 2.3.5
+  Open3D: 0.19.0
+  OpenCV: 4.13.0
+  SciPy: 1.17.1
+  Pillow: 12.0.0
+  extension import gate: diff_surfel_2dgs, diff_surfel_rasterization,
+    diff_surfel_rasterization_feature, diff_surfel_rasterization_real,
+    fused_ssim, simple_knn, and nvdiffrast all imported successfully
+  note: the managed sandbox hides NVML/CUDA; GPU commands must use approved host execution
+
+Storage at audit
+  repository filesystem: 439 GiB total, 407 GiB used, 9.5 GiB free (98%)
+  /data: 1.8 TiB total, 1.7 TiB used, 2.4 MiB free (100%)
+  /data1: 15 TiB total, 12 TiB used, 2.3 TiB free (84%)
+  selected output filesystem: /data1
+
+Dataset roots (source data treated as read-only regardless of Unix mode)
+  ShinySynthetic: /data/liuly/dataset/3DGS/Shiny Blender Synthetic
+  GlossySynthetic raw: /data/liuly/dataset/3DGS/GlossySynthetic
+  GlossySynthetic converted: /data/liuly/dataset/3DGS/GlossySyntheticConverted
+  NeRF Synthetic: present but explicitly excluded from every command
+
+Official priors
+  local compatible prior files found: 0
+  official repository: njfan/Ref-DGS_Priors
+  official revision: f7a411e493f5aa621a1bd3dcf5344058cf8bfa0e
+  full repository: 8,766 files, 35,811,886,218 bytes
+  required Ref-NeRF/refnerf subset: 3,600 files, 15,923,811,588 bytes
+  required Glossy/GlossySynthetic subset: 2,048 files, 9,449,481,267 bytes
+  required total: 5,648 files, 25,373,292,855 bytes (23.63 GiB)
+  gate: BLOCKED_MISSING_PRIORS; large download not started without user authorization
+

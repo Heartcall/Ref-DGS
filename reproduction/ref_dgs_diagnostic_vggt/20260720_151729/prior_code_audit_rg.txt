@@ -1,0 +1,49 @@
+rg: configs: No such file or directory (os error 2)
+train.py:10:from utils.loss_utils import l1_loss, ssim, entropy_loss, binary_cross_entropy, tv_loss, depth_prior_loss
+train.py:52:    #     (model_params, first_iter) = torch.load(checkpoint)
+train.py:125:        normal_loss = lambda_normal * (normal_error).mean()
+train.py:127:        loss = loss + dist_loss + normal_loss
+train.py:129:        if iteration < opt.vggt_until_iter:
+train.py:133:            vggt_normal_loss = opt.vggt_weight * (
+train.py:134:                viewpoint_cam.vggt_depth_conf * (cosine_term + 0.5 * l1_term)
+train.py:136:            vggt_depth_loss = opt.vggt_weight * depth_prior_loss(render_pkg["surf_depth"], viewpoint_cam.vggt_depth, viewpoint_cam.vggt_depth_conf, (gt_mask>0.5))
+train.py:138:            loss += vggt_normal_loss + vggt_depth_loss
+train.py:154:            ema_normal_for_log = 0.4 * normal_loss.item() + 0.6 * ema_normal_for_log
+train.py:170:            #training_report(tb_writer, iteration, Ll1, loss, loss_pbr, alpha_loss, dist_loss, normal_loss, vggt_normal_loss, vggt_depth_loss, iter_start.elapsed_time(iter_end), testing_iterations, scene, render, render_ref, pipe, background)
+train.py:237:def training_report(tb_writer, iteration, Ll1, loss, loss_pbr, alpha_loss, dist_loss, normal_loss, vggt_normal_loss, vggt_depth_loss,
+train.py:245:        tb_writer.add_scalar('train_loss_patches/normal_loss', normal_loss.item(), iteration)
+train.py:246:        tb_writer.add_scalar('train_loss_patches/vggt_normal_loss', vggt_normal_loss.item(), iteration)
+train.py:247:        tb_writer.add_scalar('train_loss_patches/vggt_depth_loss', vggt_depth_loss.item(), iteration)
+utils/mesh_utils.py:456:def rasterize_depth_map(mesh,pose,K,shape):
+utils/mesh_utils.py:518:        depth_pr, mask_pr = rasterize_depth_map(mesh, pose, K, (h, w))
+utils/loss_utils.py:101:def depth_prior_loss(rendered_depth: torch.Tensor, prior_depth: torch.Tensor, prior_depth_conf: torch.Tensor, mask: torch.Tensor = None):
+utils/loss_utils.py:107:        prior_depth (torch.Tensor): 深度先验图，例如VGGt计算的深度，形状为 [H, W]。(通常是任意尺度)。
+utils/loss_utils.py:108:        prior_depth_conf (torch.Tensor): VGGt生成的置信度图，形状为 [H, W]，归一化到 [0, 1] 之间，越高表示越可信。
+utils/loss_utils.py:116:    # 假设 rendered_depth, prior_depth, prior_depth_conf, mask 
+utils/loss_utils.py:121:    D_prior_flat = prior_depth[mask] # 扁平化的先验深度
+utils/loss_utils.py:122:    conf_flat = prior_depth_conf[mask] # 扁平化的置信度
+utils/loss_utils.py:130:    # 我们要解的是 D_model_flat * omega + b = D_prior_flat
+utils/loss_utils.py:139:    # B 向量是 sqrt(w_i) * D_prior_flat
+utils/loss_utils.py:140:    B = sqrt_weights * D_prior_flat # shape: [num_valid_pixels]
+utils/loss_utils.py:159:    weighted_loss = conf_flat * (D_aligned_flat - D_prior_flat)**2
+arguments/__init__.py:120:        self.vggt_until_iter = 15_000
+scene/ref_gaussian_model.py:339:        self.light_mlp =  torch.load(os.path.join(dir_path, 'light_mlp.pt'))
+scene/ref_gaussian_model.py:340:        self.dir_encoding =  torch.load(os.path.join(dir_path, 'dir_encoding.pt'))
+scene/ref_gaussian_model.py:506:    def get_points_depth_in_depth_map(self, fov_camera, depth, points_in_camera_space, scale=1):
+scene/gaussian_model.py:502:    def get_points_depth_in_depth_map(self, fov_camera, depth, points_in_camera_space, scale=1):
+scene/cameras.py:86:                depth_path=os.path.join("priors/Ref-NeRF/ref_real", Path(image_path).parent.parent.name, "depth", Path(image_path).name[:-3]+"pth")
+scene/cameras.py:87:                normal_path=os.path.join("priors/Ref-NeRF/ref_real", Path(image_path).parent.parent.name, "normal", Path(image_path).name)
+scene/cameras.py:89:                depth_path=os.path.join("priors/Glossy/GlossyReal", Path(image_path).parent.parent.name, "depth", Path(image_path).name[:-3]+"pth")
+scene/cameras.py:90:                normal_path=os.path.join("priors/Glossy/GlossyReal", Path(image_path).parent.parent.name, "normal", Path(image_path).name)
+scene/cameras.py:94:            vggt_depth = torch.load(depth_path) # [H, W]
+scene/cameras.py:101:            self.vggt_depth_conf = torch.ones_like(self.vggt_depth)            
+scene/cameras.py:105:                depth_path=os.path.join("priors/Ref-NeRF/refnerf", Path(image_path).parent.parent.name, Path(image_path).parent.name, "depth", Path(image_path).name[:-3]+"pth")
+scene/cameras.py:106:                normal_path=os.path.join("priors/Ref-NeRF/refnerf", Path(image_path).parent.parent.name, Path(image_path).parent.name, "normal", Path(image_path).name)
+scene/cameras.py:108:                depth_path=os.path.join("priors/Glossy/GlossySynthetic", Path(image_path).parent.parent.name, "depth", Path(image_path).name[:-3]+"pth")
+scene/cameras.py:109:                normal_path=os.path.join("priors/Glossy/GlossySynthetic", Path(image_path).parent.parent.name, "normal", Path(image_path).name)
+scene/cameras.py:111:            data = torch.load(depth_path)
+scene/cameras.py:113:            self.vggt_depth = F.interpolate(data["depth_map"].unsqueeze(0).unsqueeze(0), size=(self.image_height, self.image_width), 
+scene/cameras.py:116:            vggt_depth_conf  = F.interpolate(data["depth_conf"].unsqueeze(0).unsqueeze(0), size=(self.image_height, self.image_width),
+scene/cameras.py:119:            conf_log = torch.log(vggt_depth_conf + 1.0)
+scene/cameras.py:125:            self.vggt_depth_conf = conf_norm ** tau
+scene/cameras.py:137:        # # conf_normal_mask = vggt_normal_local *self.vggt_depth_conf.unsqueeze(-1)

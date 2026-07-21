@@ -1,0 +1,16 @@
+label,dataset,scene,config_id,training_status,training_time_min,psnr,ssim,lpips,normal_mae_deg,cd_x1e2,fps,notes
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,ball,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,only reused prior validation completed; no training in this run
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,car,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,coffee,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,helmet,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,teapot,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,ShinySynthetic,toaster,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,angel,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,bell,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,cat,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,horse,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,luyu,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,potion,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,tbell,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+NON-CANONICAL VGGT-REGENERATED PRIORS,GlossySynthetic,teapot,vggt_a288dd0_d15bf50_crop518_bf16_group20_v1,incomplete_resource_gate,,,,,,,,no generation or training
+

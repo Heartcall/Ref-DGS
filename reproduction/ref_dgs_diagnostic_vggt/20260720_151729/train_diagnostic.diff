@@ -1,0 +1,48 @@
+--- train.py	2026-07-07 11:11:55.938568024 +0800
++++ reproduction/ref_dgs_diagnostic_vggt/20260720_151729/train_diagnostic.py	2026-07-20 18:48:22.017899831 +0800
+@@ -1,6 +1,7 @@
+ import os
+ import sys
+ import uuid
++import json
+ import torch
+ import numpy as np
+ from tqdm import tqdm
+@@ -140,6 +141,30 @@
+         
+         # loss
+         total_loss = loss
++        if os.environ.get("REFDGS_DIAGNOSTIC_LOSS_LOG") == "1":
++            prior_enabled = iteration < opt.vggt_until_iter
++            components = {
++                "label": "NON-CANONICAL: regenerated with public VGGT; not an official paper reproduction",
++                "iteration": iteration,
++                "camera": viewpoint_cam.image_name,
++                "prior_enabled": prior_enabled,
++                "vggt_weight": opt.vggt_weight,
++                "vggt_until_iter": opt.vggt_until_iter,
++                "loss_total": total_loss.detach().item(),
++                "loss_pbr": loss_pbr.detach().item(),
++                "alpha_loss": alpha_loss.detach().item(),
++                "normal_loss": normal_loss.detach().item(),
++                "vggt_normal_loss": vggt_normal_loss.detach().item() if prior_enabled else None,
++                "vggt_depth_loss": vggt_depth_loss.detach().item() if prior_enabled else None,
++                "prior_depth_min": viewpoint_cam.vggt_depth.detach().min().item(),
++                "prior_depth_max": viewpoint_cam.vggt_depth.detach().max().item(),
++                "prior_conf_min": viewpoint_cam.vggt_depth_conf.detach().min().item(),
++                "prior_conf_max": viewpoint_cam.vggt_depth_conf.detach().max().item(),
++            }
++            finite_values = [value for value in components.values() if isinstance(value, float)]
++            if not all(np.isfinite(value) for value in finite_values):
++                raise FloatingPointError(f"non-finite diagnostic loss record: {components}")
++            print("[DIAGNOSTIC_PRIOR] " + json.dumps(components, sort_keys=True), flush=True)
+         total_loss.backward()
+         iter_end.record()
+         
+@@ -309,4 +334,4 @@
+     training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint)
+ 
+     # All done
+-    print("\nTraining complete.")
+\ No newline at end of file
++    print("\nTraining complete.")

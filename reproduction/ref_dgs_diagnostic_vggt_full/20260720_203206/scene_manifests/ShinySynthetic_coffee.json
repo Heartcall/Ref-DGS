@@ -1,0 +1,3052 @@
+{
+  "dataset": "ShinySynthetic",
+  "grouping": {
+    "batch_size": 20,
+    "claimed_author_equivalent": false,
+    "final_partial_batch_allowed": true,
+    "policy": "transform_file_order_consecutive_chunks",
+    "reason": "author multi-view grouping is unavailable for these scenes"
+  },
+  "label": "NON-CANONICAL VGGT-REGENERATED PRIORS \u2014 NOT A STRICT PAPER REPRODUCTION",
+  "scene": "coffee",
+  "scene_root": "/data/liuly/dataset/3DGS/Shiny Blender Synthetic/coffee",
+  "split_counts": {
+    "test": 200,
+    "train": 100
+  },
+  "test_batches": [
+    [
+      {
+        "batch_index": 0,
+        "frame_index": 0,
+        "image_name": "r_0",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_0.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_0.pth",
+        "slot": 0,
+        "source_relpath": "test/r_0.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 1,
+        "image_name": "r_1",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_1.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_1.pth",
+        "slot": 1,
+        "source_relpath": "test/r_1.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 2,
+        "image_name": "r_2",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_2.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_2.pth",
+        "slot": 2,
+        "source_relpath": "test/r_2.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 3,
+        "image_name": "r_3",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_3.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_3.pth",
+        "slot": 3,
+        "source_relpath": "test/r_3.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 4,
+        "image_name": "r_4",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_4.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_4.pth",
+        "slot": 4,
+        "source_relpath": "test/r_4.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 5,
+        "image_name": "r_5",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_5.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_5.pth",
+        "slot": 5,
+        "source_relpath": "test/r_5.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 6,
+        "image_name": "r_6",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_6.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_6.pth",
+        "slot": 6,
+        "source_relpath": "test/r_6.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 7,
+        "image_name": "r_7",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_7.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_7.pth",
+        "slot": 7,
+        "source_relpath": "test/r_7.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 8,
+        "image_name": "r_8",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_8.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_8.pth",
+        "slot": 8,
+        "source_relpath": "test/r_8.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 9,
+        "image_name": "r_9",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_9.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_9.pth",
+        "slot": 9,
+        "source_relpath": "test/r_9.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 10,
+        "image_name": "r_10",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_10.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_10.pth",
+        "slot": 10,
+        "source_relpath": "test/r_10.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 11,
+        "image_name": "r_11",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_11.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_11.pth",
+        "slot": 11,
+        "source_relpath": "test/r_11.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 12,
+        "image_name": "r_12",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_12.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_12.pth",
+        "slot": 12,
+        "source_relpath": "test/r_12.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 13,
+        "image_name": "r_13",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_13.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_13.pth",
+        "slot": 13,
+        "source_relpath": "test/r_13.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 14,
+        "image_name": "r_14",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_14.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_14.pth",
+        "slot": 14,
+        "source_relpath": "test/r_14.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 15,
+        "image_name": "r_15",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_15.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_15.pth",
+        "slot": 15,
+        "source_relpath": "test/r_15.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 16,
+        "image_name": "r_16",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_16.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_16.pth",
+        "slot": 16,
+        "source_relpath": "test/r_16.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 17,
+        "image_name": "r_17",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_17.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_17.pth",
+        "slot": 17,
+        "source_relpath": "test/r_17.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 18,
+        "image_name": "r_18",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_18.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_18.pth",
+        "slot": 18,
+        "source_relpath": "test/r_18.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 19,
+        "image_name": "r_19",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_19.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_19.pth",
+        "slot": 19,
+        "source_relpath": "test/r_19.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 1,
+        "frame_index": 20,
+        "image_name": "r_20",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_20.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_20.pth",
+        "slot": 0,
+        "source_relpath": "test/r_20.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 21,
+        "image_name": "r_21",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_21.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_21.pth",
+        "slot": 1,
+        "source_relpath": "test/r_21.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 22,
+        "image_name": "r_22",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_22.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_22.pth",
+        "slot": 2,
+        "source_relpath": "test/r_22.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 23,
+        "image_name": "r_23",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_23.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_23.pth",
+        "slot": 3,
+        "source_relpath": "test/r_23.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 24,
+        "image_name": "r_24",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_24.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_24.pth",
+        "slot": 4,
+        "source_relpath": "test/r_24.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 25,
+        "image_name": "r_25",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_25.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_25.pth",
+        "slot": 5,
+        "source_relpath": "test/r_25.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 26,
+        "image_name": "r_26",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_26.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_26.pth",
+        "slot": 6,
+        "source_relpath": "test/r_26.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 27,
+        "image_name": "r_27",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_27.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_27.pth",
+        "slot": 7,
+        "source_relpath": "test/r_27.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 28,
+        "image_name": "r_28",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_28.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_28.pth",
+        "slot": 8,
+        "source_relpath": "test/r_28.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 29,
+        "image_name": "r_29",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_29.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_29.pth",
+        "slot": 9,
+        "source_relpath": "test/r_29.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 30,
+        "image_name": "r_30",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_30.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_30.pth",
+        "slot": 10,
+        "source_relpath": "test/r_30.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 31,
+        "image_name": "r_31",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_31.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_31.pth",
+        "slot": 11,
+        "source_relpath": "test/r_31.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 32,
+        "image_name": "r_32",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_32.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_32.pth",
+        "slot": 12,
+        "source_relpath": "test/r_32.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 33,
+        "image_name": "r_33",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_33.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_33.pth",
+        "slot": 13,
+        "source_relpath": "test/r_33.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 34,
+        "image_name": "r_34",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_34.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_34.pth",
+        "slot": 14,
+        "source_relpath": "test/r_34.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 35,
+        "image_name": "r_35",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_35.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_35.pth",
+        "slot": 15,
+        "source_relpath": "test/r_35.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 36,
+        "image_name": "r_36",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_36.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_36.pth",
+        "slot": 16,
+        "source_relpath": "test/r_36.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 37,
+        "image_name": "r_37",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_37.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_37.pth",
+        "slot": 17,
+        "source_relpath": "test/r_37.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 38,
+        "image_name": "r_38",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_38.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_38.pth",
+        "slot": 18,
+        "source_relpath": "test/r_38.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 39,
+        "image_name": "r_39",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_39.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_39.pth",
+        "slot": 19,
+        "source_relpath": "test/r_39.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 2,
+        "frame_index": 40,
+        "image_name": "r_40",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_40.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_40.pth",
+        "slot": 0,
+        "source_relpath": "test/r_40.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 41,
+        "image_name": "r_41",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_41.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_41.pth",
+        "slot": 1,
+        "source_relpath": "test/r_41.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 42,
+        "image_name": "r_42",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_42.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_42.pth",
+        "slot": 2,
+        "source_relpath": "test/r_42.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 43,
+        "image_name": "r_43",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_43.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_43.pth",
+        "slot": 3,
+        "source_relpath": "test/r_43.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 44,
+        "image_name": "r_44",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_44.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_44.pth",
+        "slot": 4,
+        "source_relpath": "test/r_44.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 45,
+        "image_name": "r_45",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_45.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_45.pth",
+        "slot": 5,
+        "source_relpath": "test/r_45.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 46,
+        "image_name": "r_46",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_46.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_46.pth",
+        "slot": 6,
+        "source_relpath": "test/r_46.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 47,
+        "image_name": "r_47",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_47.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_47.pth",
+        "slot": 7,
+        "source_relpath": "test/r_47.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 48,
+        "image_name": "r_48",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_48.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_48.pth",
+        "slot": 8,
+        "source_relpath": "test/r_48.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 49,
+        "image_name": "r_49",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_49.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_49.pth",
+        "slot": 9,
+        "source_relpath": "test/r_49.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 50,
+        "image_name": "r_50",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_50.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_50.pth",
+        "slot": 10,
+        "source_relpath": "test/r_50.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 51,
+        "image_name": "r_51",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_51.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_51.pth",
+        "slot": 11,
+        "source_relpath": "test/r_51.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 52,
+        "image_name": "r_52",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_52.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_52.pth",
+        "slot": 12,
+        "source_relpath": "test/r_52.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 53,
+        "image_name": "r_53",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_53.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_53.pth",
+        "slot": 13,
+        "source_relpath": "test/r_53.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 54,
+        "image_name": "r_54",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_54.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_54.pth",
+        "slot": 14,
+        "source_relpath": "test/r_54.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 55,
+        "image_name": "r_55",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_55.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_55.pth",
+        "slot": 15,
+        "source_relpath": "test/r_55.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 56,
+        "image_name": "r_56",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_56.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_56.pth",
+        "slot": 16,
+        "source_relpath": "test/r_56.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 57,
+        "image_name": "r_57",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_57.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_57.pth",
+        "slot": 17,
+        "source_relpath": "test/r_57.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 58,
+        "image_name": "r_58",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_58.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_58.pth",
+        "slot": 18,
+        "source_relpath": "test/r_58.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 59,
+        "image_name": "r_59",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_59.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_59.pth",
+        "slot": 19,
+        "source_relpath": "test/r_59.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 3,
+        "frame_index": 60,
+        "image_name": "r_60",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_60.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_60.pth",
+        "slot": 0,
+        "source_relpath": "test/r_60.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 61,
+        "image_name": "r_61",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_61.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_61.pth",
+        "slot": 1,
+        "source_relpath": "test/r_61.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 62,
+        "image_name": "r_62",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_62.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_62.pth",
+        "slot": 2,
+        "source_relpath": "test/r_62.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 63,
+        "image_name": "r_63",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_63.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_63.pth",
+        "slot": 3,
+        "source_relpath": "test/r_63.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 64,
+        "image_name": "r_64",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_64.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_64.pth",
+        "slot": 4,
+        "source_relpath": "test/r_64.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 65,
+        "image_name": "r_65",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_65.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_65.pth",
+        "slot": 5,
+        "source_relpath": "test/r_65.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 66,
+        "image_name": "r_66",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_66.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_66.pth",
+        "slot": 6,
+        "source_relpath": "test/r_66.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 67,
+        "image_name": "r_67",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_67.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_67.pth",
+        "slot": 7,
+        "source_relpath": "test/r_67.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 68,
+        "image_name": "r_68",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_68.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_68.pth",
+        "slot": 8,
+        "source_relpath": "test/r_68.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 69,
+        "image_name": "r_69",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_69.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_69.pth",
+        "slot": 9,
+        "source_relpath": "test/r_69.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 70,
+        "image_name": "r_70",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_70.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_70.pth",
+        "slot": 10,
+        "source_relpath": "test/r_70.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 71,
+        "image_name": "r_71",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_71.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_71.pth",
+        "slot": 11,
+        "source_relpath": "test/r_71.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 72,
+        "image_name": "r_72",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_72.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_72.pth",
+        "slot": 12,
+        "source_relpath": "test/r_72.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 73,
+        "image_name": "r_73",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_73.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_73.pth",
+        "slot": 13,
+        "source_relpath": "test/r_73.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 74,
+        "image_name": "r_74",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_74.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_74.pth",
+        "slot": 14,
+        "source_relpath": "test/r_74.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 75,
+        "image_name": "r_75",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_75.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_75.pth",
+        "slot": 15,
+        "source_relpath": "test/r_75.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 76,
+        "image_name": "r_76",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_76.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_76.pth",
+        "slot": 16,
+        "source_relpath": "test/r_76.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 77,
+        "image_name": "r_77",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_77.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_77.pth",
+        "slot": 17,
+        "source_relpath": "test/r_77.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 78,
+        "image_name": "r_78",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_78.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_78.pth",
+        "slot": 18,
+        "source_relpath": "test/r_78.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 79,
+        "image_name": "r_79",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_79.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_79.pth",
+        "slot": 19,
+        "source_relpath": "test/r_79.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 4,
+        "frame_index": 80,
+        "image_name": "r_80",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_80.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_80.pth",
+        "slot": 0,
+        "source_relpath": "test/r_80.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 81,
+        "image_name": "r_81",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_81.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_81.pth",
+        "slot": 1,
+        "source_relpath": "test/r_81.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 82,
+        "image_name": "r_82",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_82.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_82.pth",
+        "slot": 2,
+        "source_relpath": "test/r_82.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 83,
+        "image_name": "r_83",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_83.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_83.pth",
+        "slot": 3,
+        "source_relpath": "test/r_83.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 84,
+        "image_name": "r_84",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_84.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_84.pth",
+        "slot": 4,
+        "source_relpath": "test/r_84.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 85,
+        "image_name": "r_85",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_85.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_85.pth",
+        "slot": 5,
+        "source_relpath": "test/r_85.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 86,
+        "image_name": "r_86",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_86.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_86.pth",
+        "slot": 6,
+        "source_relpath": "test/r_86.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 87,
+        "image_name": "r_87",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_87.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_87.pth",
+        "slot": 7,
+        "source_relpath": "test/r_87.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 88,
+        "image_name": "r_88",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_88.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_88.pth",
+        "slot": 8,
+        "source_relpath": "test/r_88.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 89,
+        "image_name": "r_89",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_89.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_89.pth",
+        "slot": 9,
+        "source_relpath": "test/r_89.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 90,
+        "image_name": "r_90",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_90.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_90.pth",
+        "slot": 10,
+        "source_relpath": "test/r_90.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 91,
+        "image_name": "r_91",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_91.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_91.pth",
+        "slot": 11,
+        "source_relpath": "test/r_91.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 92,
+        "image_name": "r_92",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_92.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_92.pth",
+        "slot": 12,
+        "source_relpath": "test/r_92.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 93,
+        "image_name": "r_93",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_93.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_93.pth",
+        "slot": 13,
+        "source_relpath": "test/r_93.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 94,
+        "image_name": "r_94",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_94.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_94.pth",
+        "slot": 14,
+        "source_relpath": "test/r_94.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 95,
+        "image_name": "r_95",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_95.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_95.pth",
+        "slot": 15,
+        "source_relpath": "test/r_95.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 96,
+        "image_name": "r_96",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_96.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_96.pth",
+        "slot": 16,
+        "source_relpath": "test/r_96.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 97,
+        "image_name": "r_97",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_97.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_97.pth",
+        "slot": 17,
+        "source_relpath": "test/r_97.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 98,
+        "image_name": "r_98",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_98.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_98.pth",
+        "slot": 18,
+        "source_relpath": "test/r_98.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 99,
+        "image_name": "r_99",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_99.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_99.pth",
+        "slot": 19,
+        "source_relpath": "test/r_99.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 5,
+        "frame_index": 100,
+        "image_name": "r_100",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_100.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_100.pth",
+        "slot": 0,
+        "source_relpath": "test/r_100.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 101,
+        "image_name": "r_101",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_101.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_101.pth",
+        "slot": 1,
+        "source_relpath": "test/r_101.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 102,
+        "image_name": "r_102",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_102.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_102.pth",
+        "slot": 2,
+        "source_relpath": "test/r_102.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 103,
+        "image_name": "r_103",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_103.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_103.pth",
+        "slot": 3,
+        "source_relpath": "test/r_103.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 104,
+        "image_name": "r_104",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_104.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_104.pth",
+        "slot": 4,
+        "source_relpath": "test/r_104.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 105,
+        "image_name": "r_105",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_105.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_105.pth",
+        "slot": 5,
+        "source_relpath": "test/r_105.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 106,
+        "image_name": "r_106",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_106.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_106.pth",
+        "slot": 6,
+        "source_relpath": "test/r_106.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 107,
+        "image_name": "r_107",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_107.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_107.pth",
+        "slot": 7,
+        "source_relpath": "test/r_107.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 108,
+        "image_name": "r_108",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_108.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_108.pth",
+        "slot": 8,
+        "source_relpath": "test/r_108.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 109,
+        "image_name": "r_109",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_109.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_109.pth",
+        "slot": 9,
+        "source_relpath": "test/r_109.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 110,
+        "image_name": "r_110",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_110.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_110.pth",
+        "slot": 10,
+        "source_relpath": "test/r_110.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 111,
+        "image_name": "r_111",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_111.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_111.pth",
+        "slot": 11,
+        "source_relpath": "test/r_111.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 112,
+        "image_name": "r_112",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_112.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_112.pth",
+        "slot": 12,
+        "source_relpath": "test/r_112.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 113,
+        "image_name": "r_113",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_113.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_113.pth",
+        "slot": 13,
+        "source_relpath": "test/r_113.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 114,
+        "image_name": "r_114",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_114.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_114.pth",
+        "slot": 14,
+        "source_relpath": "test/r_114.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 115,
+        "image_name": "r_115",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_115.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_115.pth",
+        "slot": 15,
+        "source_relpath": "test/r_115.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 116,
+        "image_name": "r_116",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_116.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_116.pth",
+        "slot": 16,
+        "source_relpath": "test/r_116.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 117,
+        "image_name": "r_117",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_117.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_117.pth",
+        "slot": 17,
+        "source_relpath": "test/r_117.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 118,
+        "image_name": "r_118",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_118.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_118.pth",
+        "slot": 18,
+        "source_relpath": "test/r_118.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 5,
+        "frame_index": 119,
+        "image_name": "r_119",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_119.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_119.pth",
+        "slot": 19,
+        "source_relpath": "test/r_119.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 6,
+        "frame_index": 120,
+        "image_name": "r_120",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_120.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_120.pth",
+        "slot": 0,
+        "source_relpath": "test/r_120.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 121,
+        "image_name": "r_121",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_121.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_121.pth",
+        "slot": 1,
+        "source_relpath": "test/r_121.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 122,
+        "image_name": "r_122",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_122.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_122.pth",
+        "slot": 2,
+        "source_relpath": "test/r_122.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 123,
+        "image_name": "r_123",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_123.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_123.pth",
+        "slot": 3,
+        "source_relpath": "test/r_123.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 124,
+        "image_name": "r_124",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_124.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_124.pth",
+        "slot": 4,
+        "source_relpath": "test/r_124.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 125,
+        "image_name": "r_125",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_125.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_125.pth",
+        "slot": 5,
+        "source_relpath": "test/r_125.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 126,
+        "image_name": "r_126",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_126.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_126.pth",
+        "slot": 6,
+        "source_relpath": "test/r_126.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 127,
+        "image_name": "r_127",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_127.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_127.pth",
+        "slot": 7,
+        "source_relpath": "test/r_127.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 128,
+        "image_name": "r_128",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_128.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_128.pth",
+        "slot": 8,
+        "source_relpath": "test/r_128.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 129,
+        "image_name": "r_129",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_129.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_129.pth",
+        "slot": 9,
+        "source_relpath": "test/r_129.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 130,
+        "image_name": "r_130",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_130.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_130.pth",
+        "slot": 10,
+        "source_relpath": "test/r_130.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 131,
+        "image_name": "r_131",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_131.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_131.pth",
+        "slot": 11,
+        "source_relpath": "test/r_131.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 132,
+        "image_name": "r_132",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_132.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_132.pth",
+        "slot": 12,
+        "source_relpath": "test/r_132.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 133,
+        "image_name": "r_133",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_133.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_133.pth",
+        "slot": 13,
+        "source_relpath": "test/r_133.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 134,
+        "image_name": "r_134",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_134.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_134.pth",
+        "slot": 14,
+        "source_relpath": "test/r_134.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 135,
+        "image_name": "r_135",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_135.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_135.pth",
+        "slot": 15,
+        "source_relpath": "test/r_135.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 136,
+        "image_name": "r_136",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_136.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_136.pth",
+        "slot": 16,
+        "source_relpath": "test/r_136.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 137,
+        "image_name": "r_137",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_137.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_137.pth",
+        "slot": 17,
+        "source_relpath": "test/r_137.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 138,
+        "image_name": "r_138",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_138.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_138.pth",
+        "slot": 18,
+        "source_relpath": "test/r_138.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 6,
+        "frame_index": 139,
+        "image_name": "r_139",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_139.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_139.pth",
+        "slot": 19,
+        "source_relpath": "test/r_139.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 7,
+        "frame_index": 140,
+        "image_name": "r_140",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_140.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_140.pth",
+        "slot": 0,
+        "source_relpath": "test/r_140.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 141,
+        "image_name": "r_141",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_141.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_141.pth",
+        "slot": 1,
+        "source_relpath": "test/r_141.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 142,
+        "image_name": "r_142",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_142.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_142.pth",
+        "slot": 2,
+        "source_relpath": "test/r_142.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 143,
+        "image_name": "r_143",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_143.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_143.pth",
+        "slot": 3,
+        "source_relpath": "test/r_143.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 144,
+        "image_name": "r_144",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_144.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_144.pth",
+        "slot": 4,
+        "source_relpath": "test/r_144.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 145,
+        "image_name": "r_145",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_145.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_145.pth",
+        "slot": 5,
+        "source_relpath": "test/r_145.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 146,
+        "image_name": "r_146",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_146.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_146.pth",
+        "slot": 6,
+        "source_relpath": "test/r_146.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 147,
+        "image_name": "r_147",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_147.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_147.pth",
+        "slot": 7,
+        "source_relpath": "test/r_147.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 148,
+        "image_name": "r_148",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_148.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_148.pth",
+        "slot": 8,
+        "source_relpath": "test/r_148.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 149,
+        "image_name": "r_149",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_149.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_149.pth",
+        "slot": 9,
+        "source_relpath": "test/r_149.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 150,
+        "image_name": "r_150",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_150.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_150.pth",
+        "slot": 10,
+        "source_relpath": "test/r_150.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 151,
+        "image_name": "r_151",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_151.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_151.pth",
+        "slot": 11,
+        "source_relpath": "test/r_151.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 152,
+        "image_name": "r_152",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_152.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_152.pth",
+        "slot": 12,
+        "source_relpath": "test/r_152.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 153,
+        "image_name": "r_153",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_153.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_153.pth",
+        "slot": 13,
+        "source_relpath": "test/r_153.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 154,
+        "image_name": "r_154",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_154.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_154.pth",
+        "slot": 14,
+        "source_relpath": "test/r_154.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 155,
+        "image_name": "r_155",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_155.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_155.pth",
+        "slot": 15,
+        "source_relpath": "test/r_155.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 156,
+        "image_name": "r_156",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_156.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_156.pth",
+        "slot": 16,
+        "source_relpath": "test/r_156.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 157,
+        "image_name": "r_157",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_157.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_157.pth",
+        "slot": 17,
+        "source_relpath": "test/r_157.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 158,
+        "image_name": "r_158",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_158.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_158.pth",
+        "slot": 18,
+        "source_relpath": "test/r_158.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 7,
+        "frame_index": 159,
+        "image_name": "r_159",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_159.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_159.pth",
+        "slot": 19,
+        "source_relpath": "test/r_159.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 8,
+        "frame_index": 160,
+        "image_name": "r_160",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_160.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_160.pth",
+        "slot": 0,
+        "source_relpath": "test/r_160.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 161,
+        "image_name": "r_161",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_161.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_161.pth",
+        "slot": 1,
+        "source_relpath": "test/r_161.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 162,
+        "image_name": "r_162",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_162.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_162.pth",
+        "slot": 2,
+        "source_relpath": "test/r_162.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 163,
+        "image_name": "r_163",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_163.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_163.pth",
+        "slot": 3,
+        "source_relpath": "test/r_163.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 164,
+        "image_name": "r_164",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_164.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_164.pth",
+        "slot": 4,
+        "source_relpath": "test/r_164.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 165,
+        "image_name": "r_165",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_165.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_165.pth",
+        "slot": 5,
+        "source_relpath": "test/r_165.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 166,
+        "image_name": "r_166",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_166.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_166.pth",
+        "slot": 6,
+        "source_relpath": "test/r_166.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 167,
+        "image_name": "r_167",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_167.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_167.pth",
+        "slot": 7,
+        "source_relpath": "test/r_167.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 168,
+        "image_name": "r_168",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_168.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_168.pth",
+        "slot": 8,
+        "source_relpath": "test/r_168.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 169,
+        "image_name": "r_169",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_169.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_169.pth",
+        "slot": 9,
+        "source_relpath": "test/r_169.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 170,
+        "image_name": "r_170",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_170.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_170.pth",
+        "slot": 10,
+        "source_relpath": "test/r_170.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 171,
+        "image_name": "r_171",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_171.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_171.pth",
+        "slot": 11,
+        "source_relpath": "test/r_171.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 172,
+        "image_name": "r_172",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_172.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_172.pth",
+        "slot": 12,
+        "source_relpath": "test/r_172.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 173,
+        "image_name": "r_173",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_173.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_173.pth",
+        "slot": 13,
+        "source_relpath": "test/r_173.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 174,
+        "image_name": "r_174",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_174.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_174.pth",
+        "slot": 14,
+        "source_relpath": "test/r_174.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 175,
+        "image_name": "r_175",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_175.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_175.pth",
+        "slot": 15,
+        "source_relpath": "test/r_175.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 176,
+        "image_name": "r_176",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_176.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_176.pth",
+        "slot": 16,
+        "source_relpath": "test/r_176.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 177,
+        "image_name": "r_177",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_177.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_177.pth",
+        "slot": 17,
+        "source_relpath": "test/r_177.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 178,
+        "image_name": "r_178",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_178.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_178.pth",
+        "slot": 18,
+        "source_relpath": "test/r_178.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 8,
+        "frame_index": 179,
+        "image_name": "r_179",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_179.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_179.pth",
+        "slot": 19,
+        "source_relpath": "test/r_179.png",
+        "split": "test"
+      }
+    ],
+    [
+      {
+        "batch_index": 9,
+        "frame_index": 180,
+        "image_name": "r_180",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_180.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_180.pth",
+        "slot": 0,
+        "source_relpath": "test/r_180.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 181,
+        "image_name": "r_181",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_181.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_181.pth",
+        "slot": 1,
+        "source_relpath": "test/r_181.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 182,
+        "image_name": "r_182",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_182.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_182.pth",
+        "slot": 2,
+        "source_relpath": "test/r_182.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 183,
+        "image_name": "r_183",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_183.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_183.pth",
+        "slot": 3,
+        "source_relpath": "test/r_183.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 184,
+        "image_name": "r_184",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_184.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_184.pth",
+        "slot": 4,
+        "source_relpath": "test/r_184.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 185,
+        "image_name": "r_185",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_185.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_185.pth",
+        "slot": 5,
+        "source_relpath": "test/r_185.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 186,
+        "image_name": "r_186",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_186.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_186.pth",
+        "slot": 6,
+        "source_relpath": "test/r_186.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 187,
+        "image_name": "r_187",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_187.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_187.pth",
+        "slot": 7,
+        "source_relpath": "test/r_187.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 188,
+        "image_name": "r_188",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_188.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_188.pth",
+        "slot": 8,
+        "source_relpath": "test/r_188.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 189,
+        "image_name": "r_189",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_189.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_189.pth",
+        "slot": 9,
+        "source_relpath": "test/r_189.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 190,
+        "image_name": "r_190",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_190.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_190.pth",
+        "slot": 10,
+        "source_relpath": "test/r_190.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 191,
+        "image_name": "r_191",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_191.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_191.pth",
+        "slot": 11,
+        "source_relpath": "test/r_191.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 192,
+        "image_name": "r_192",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_192.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_192.pth",
+        "slot": 12,
+        "source_relpath": "test/r_192.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 193,
+        "image_name": "r_193",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_193.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_193.pth",
+        "slot": 13,
+        "source_relpath": "test/r_193.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 194,
+        "image_name": "r_194",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_194.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_194.pth",
+        "slot": 14,
+        "source_relpath": "test/r_194.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 195,
+        "image_name": "r_195",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_195.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_195.pth",
+        "slot": 15,
+        "source_relpath": "test/r_195.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 196,
+        "image_name": "r_196",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_196.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_196.pth",
+        "slot": 16,
+        "source_relpath": "test/r_196.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 197,
+        "image_name": "r_197",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_197.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_197.pth",
+        "slot": 17,
+        "source_relpath": "test/r_197.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 198,
+        "image_name": "r_198",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_198.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_198.pth",
+        "slot": 18,
+        "source_relpath": "test/r_198.png",
+        "split": "test"
+      },
+      {
+        "batch_index": 9,
+        "frame_index": 199,
+        "image_name": "r_199",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/test/normal/r_199.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/test/depth/r_199.pth",
+        "slot": 19,
+        "source_relpath": "test/r_199.png",
+        "split": "test"
+      }
+    ]
+  ],
+  "train_batches": [
+    [
+      {
+        "batch_index": 0,
+        "frame_index": 0,
+        "image_name": "r_0",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_0.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_0.pth",
+        "slot": 0,
+        "source_relpath": "train/r_0.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 1,
+        "image_name": "r_1",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_1.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_1.pth",
+        "slot": 1,
+        "source_relpath": "train/r_1.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 2,
+        "image_name": "r_2",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_2.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_2.pth",
+        "slot": 2,
+        "source_relpath": "train/r_2.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 3,
+        "image_name": "r_3",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_3.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_3.pth",
+        "slot": 3,
+        "source_relpath": "train/r_3.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 4,
+        "image_name": "r_4",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_4.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_4.pth",
+        "slot": 4,
+        "source_relpath": "train/r_4.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 5,
+        "image_name": "r_5",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_5.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_5.pth",
+        "slot": 5,
+        "source_relpath": "train/r_5.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 6,
+        "image_name": "r_6",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_6.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_6.pth",
+        "slot": 6,
+        "source_relpath": "train/r_6.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 7,
+        "image_name": "r_7",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_7.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_7.pth",
+        "slot": 7,
+        "source_relpath": "train/r_7.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 8,
+        "image_name": "r_8",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_8.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_8.pth",
+        "slot": 8,
+        "source_relpath": "train/r_8.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 9,
+        "image_name": "r_9",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_9.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_9.pth",
+        "slot": 9,
+        "source_relpath": "train/r_9.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 10,
+        "image_name": "r_10",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_10.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_10.pth",
+        "slot": 10,
+        "source_relpath": "train/r_10.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 11,
+        "image_name": "r_11",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_11.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_11.pth",
+        "slot": 11,
+        "source_relpath": "train/r_11.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 12,
+        "image_name": "r_12",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_12.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_12.pth",
+        "slot": 12,
+        "source_relpath": "train/r_12.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 13,
+        "image_name": "r_13",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_13.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_13.pth",
+        "slot": 13,
+        "source_relpath": "train/r_13.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 14,
+        "image_name": "r_14",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_14.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_14.pth",
+        "slot": 14,
+        "source_relpath": "train/r_14.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 15,
+        "image_name": "r_15",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_15.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_15.pth",
+        "slot": 15,
+        "source_relpath": "train/r_15.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 16,
+        "image_name": "r_16",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_16.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_16.pth",
+        "slot": 16,
+        "source_relpath": "train/r_16.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 17,
+        "image_name": "r_17",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_17.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_17.pth",
+        "slot": 17,
+        "source_relpath": "train/r_17.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 18,
+        "image_name": "r_18",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_18.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_18.pth",
+        "slot": 18,
+        "source_relpath": "train/r_18.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 0,
+        "frame_index": 19,
+        "image_name": "r_19",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_19.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_19.pth",
+        "slot": 19,
+        "source_relpath": "train/r_19.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 1,
+        "frame_index": 20,
+        "image_name": "r_20",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_20.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_20.pth",
+        "slot": 0,
+        "source_relpath": "train/r_20.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 21,
+        "image_name": "r_21",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_21.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_21.pth",
+        "slot": 1,
+        "source_relpath": "train/r_21.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 22,
+        "image_name": "r_22",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_22.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_22.pth",
+        "slot": 2,
+        "source_relpath": "train/r_22.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 23,
+        "image_name": "r_23",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_23.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_23.pth",
+        "slot": 3,
+        "source_relpath": "train/r_23.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 24,
+        "image_name": "r_24",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_24.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_24.pth",
+        "slot": 4,
+        "source_relpath": "train/r_24.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 25,
+        "image_name": "r_25",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_25.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_25.pth",
+        "slot": 5,
+        "source_relpath": "train/r_25.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 26,
+        "image_name": "r_26",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_26.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_26.pth",
+        "slot": 6,
+        "source_relpath": "train/r_26.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 27,
+        "image_name": "r_27",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_27.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_27.pth",
+        "slot": 7,
+        "source_relpath": "train/r_27.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 28,
+        "image_name": "r_28",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_28.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_28.pth",
+        "slot": 8,
+        "source_relpath": "train/r_28.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 29,
+        "image_name": "r_29",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_29.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_29.pth",
+        "slot": 9,
+        "source_relpath": "train/r_29.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 30,
+        "image_name": "r_30",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_30.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_30.pth",
+        "slot": 10,
+        "source_relpath": "train/r_30.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 31,
+        "image_name": "r_31",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_31.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_31.pth",
+        "slot": 11,
+        "source_relpath": "train/r_31.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 32,
+        "image_name": "r_32",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_32.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_32.pth",
+        "slot": 12,
+        "source_relpath": "train/r_32.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 33,
+        "image_name": "r_33",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_33.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_33.pth",
+        "slot": 13,
+        "source_relpath": "train/r_33.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 34,
+        "image_name": "r_34",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_34.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_34.pth",
+        "slot": 14,
+        "source_relpath": "train/r_34.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 35,
+        "image_name": "r_35",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_35.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_35.pth",
+        "slot": 15,
+        "source_relpath": "train/r_35.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 36,
+        "image_name": "r_36",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_36.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_36.pth",
+        "slot": 16,
+        "source_relpath": "train/r_36.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 37,
+        "image_name": "r_37",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_37.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_37.pth",
+        "slot": 17,
+        "source_relpath": "train/r_37.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 38,
+        "image_name": "r_38",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_38.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_38.pth",
+        "slot": 18,
+        "source_relpath": "train/r_38.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 1,
+        "frame_index": 39,
+        "image_name": "r_39",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_39.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_39.pth",
+        "slot": 19,
+        "source_relpath": "train/r_39.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 2,
+        "frame_index": 40,
+        "image_name": "r_40",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_40.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_40.pth",
+        "slot": 0,
+        "source_relpath": "train/r_40.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 41,
+        "image_name": "r_41",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_41.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_41.pth",
+        "slot": 1,
+        "source_relpath": "train/r_41.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 42,
+        "image_name": "r_42",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_42.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_42.pth",
+        "slot": 2,
+        "source_relpath": "train/r_42.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 43,
+        "image_name": "r_43",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_43.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_43.pth",
+        "slot": 3,
+        "source_relpath": "train/r_43.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 44,
+        "image_name": "r_44",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_44.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_44.pth",
+        "slot": 4,
+        "source_relpath": "train/r_44.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 45,
+        "image_name": "r_45",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_45.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_45.pth",
+        "slot": 5,
+        "source_relpath": "train/r_45.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 46,
+        "image_name": "r_46",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_46.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_46.pth",
+        "slot": 6,
+        "source_relpath": "train/r_46.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 47,
+        "image_name": "r_47",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_47.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_47.pth",
+        "slot": 7,
+        "source_relpath": "train/r_47.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 48,
+        "image_name": "r_48",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_48.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_48.pth",
+        "slot": 8,
+        "source_relpath": "train/r_48.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 49,
+        "image_name": "r_49",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_49.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_49.pth",
+        "slot": 9,
+        "source_relpath": "train/r_49.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 50,
+        "image_name": "r_50",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_50.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_50.pth",
+        "slot": 10,
+        "source_relpath": "train/r_50.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 51,
+        "image_name": "r_51",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_51.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_51.pth",
+        "slot": 11,
+        "source_relpath": "train/r_51.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 52,
+        "image_name": "r_52",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_52.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_52.pth",
+        "slot": 12,
+        "source_relpath": "train/r_52.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 53,
+        "image_name": "r_53",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_53.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_53.pth",
+        "slot": 13,
+        "source_relpath": "train/r_53.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 54,
+        "image_name": "r_54",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_54.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_54.pth",
+        "slot": 14,
+        "source_relpath": "train/r_54.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 55,
+        "image_name": "r_55",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_55.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_55.pth",
+        "slot": 15,
+        "source_relpath": "train/r_55.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 56,
+        "image_name": "r_56",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_56.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_56.pth",
+        "slot": 16,
+        "source_relpath": "train/r_56.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 57,
+        "image_name": "r_57",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_57.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_57.pth",
+        "slot": 17,
+        "source_relpath": "train/r_57.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 58,
+        "image_name": "r_58",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_58.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_58.pth",
+        "slot": 18,
+        "source_relpath": "train/r_58.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 2,
+        "frame_index": 59,
+        "image_name": "r_59",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_59.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_59.pth",
+        "slot": 19,
+        "source_relpath": "train/r_59.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 3,
+        "frame_index": 60,
+        "image_name": "r_60",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_60.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_60.pth",
+        "slot": 0,
+        "source_relpath": "train/r_60.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 61,
+        "image_name": "r_61",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_61.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_61.pth",
+        "slot": 1,
+        "source_relpath": "train/r_61.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 62,
+        "image_name": "r_62",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_62.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_62.pth",
+        "slot": 2,
+        "source_relpath": "train/r_62.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 63,
+        "image_name": "r_63",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_63.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_63.pth",
+        "slot": 3,
+        "source_relpath": "train/r_63.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 64,
+        "image_name": "r_64",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_64.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_64.pth",
+        "slot": 4,
+        "source_relpath": "train/r_64.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 65,
+        "image_name": "r_65",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_65.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_65.pth",
+        "slot": 5,
+        "source_relpath": "train/r_65.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 66,
+        "image_name": "r_66",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_66.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_66.pth",
+        "slot": 6,
+        "source_relpath": "train/r_66.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 67,
+        "image_name": "r_67",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_67.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_67.pth",
+        "slot": 7,
+        "source_relpath": "train/r_67.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 68,
+        "image_name": "r_68",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_68.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_68.pth",
+        "slot": 8,
+        "source_relpath": "train/r_68.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 69,
+        "image_name": "r_69",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_69.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_69.pth",
+        "slot": 9,
+        "source_relpath": "train/r_69.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 70,
+        "image_name": "r_70",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_70.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_70.pth",
+        "slot": 10,
+        "source_relpath": "train/r_70.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 71,
+        "image_name": "r_71",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_71.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_71.pth",
+        "slot": 11,
+        "source_relpath": "train/r_71.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 72,
+        "image_name": "r_72",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_72.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_72.pth",
+        "slot": 12,
+        "source_relpath": "train/r_72.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 73,
+        "image_name": "r_73",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_73.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_73.pth",
+        "slot": 13,
+        "source_relpath": "train/r_73.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 74,
+        "image_name": "r_74",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_74.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_74.pth",
+        "slot": 14,
+        "source_relpath": "train/r_74.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 75,
+        "image_name": "r_75",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_75.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_75.pth",
+        "slot": 15,
+        "source_relpath": "train/r_75.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 76,
+        "image_name": "r_76",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_76.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_76.pth",
+        "slot": 16,
+        "source_relpath": "train/r_76.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 77,
+        "image_name": "r_77",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_77.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_77.pth",
+        "slot": 17,
+        "source_relpath": "train/r_77.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 78,
+        "image_name": "r_78",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_78.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_78.pth",
+        "slot": 18,
+        "source_relpath": "train/r_78.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 3,
+        "frame_index": 79,
+        "image_name": "r_79",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_79.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_79.pth",
+        "slot": 19,
+        "source_relpath": "train/r_79.png",
+        "split": "train"
+      }
+    ],
+    [
+      {
+        "batch_index": 4,
+        "frame_index": 80,
+        "image_name": "r_80",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_80.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_80.pth",
+        "slot": 0,
+        "source_relpath": "train/r_80.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 81,
+        "image_name": "r_81",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_81.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_81.pth",
+        "slot": 1,
+        "source_relpath": "train/r_81.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 82,
+        "image_name": "r_82",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_82.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_82.pth",
+        "slot": 2,
+        "source_relpath": "train/r_82.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 83,
+        "image_name": "r_83",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_83.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_83.pth",
+        "slot": 3,
+        "source_relpath": "train/r_83.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 84,
+        "image_name": "r_84",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_84.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_84.pth",
+        "slot": 4,
+        "source_relpath": "train/r_84.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 85,
+        "image_name": "r_85",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_85.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_85.pth",
+        "slot": 5,
+        "source_relpath": "train/r_85.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 86,
+        "image_name": "r_86",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_86.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_86.pth",
+        "slot": 6,
+        "source_relpath": "train/r_86.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 87,
+        "image_name": "r_87",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_87.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_87.pth",
+        "slot": 7,
+        "source_relpath": "train/r_87.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 88,
+        "image_name": "r_88",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_88.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_88.pth",
+        "slot": 8,
+        "source_relpath": "train/r_88.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 89,
+        "image_name": "r_89",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_89.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_89.pth",
+        "slot": 9,
+        "source_relpath": "train/r_89.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 90,
+        "image_name": "r_90",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_90.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_90.pth",
+        "slot": 10,
+        "source_relpath": "train/r_90.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 91,
+        "image_name": "r_91",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_91.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_91.pth",
+        "slot": 11,
+        "source_relpath": "train/r_91.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 92,
+        "image_name": "r_92",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_92.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_92.pth",
+        "slot": 12,
+        "source_relpath": "train/r_92.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 93,
+        "image_name": "r_93",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_93.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_93.pth",
+        "slot": 13,
+        "source_relpath": "train/r_93.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 94,
+        "image_name": "r_94",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_94.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_94.pth",
+        "slot": 14,
+        "source_relpath": "train/r_94.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 95,
+        "image_name": "r_95",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_95.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_95.pth",
+        "slot": 15,
+        "source_relpath": "train/r_95.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 96,
+        "image_name": "r_96",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_96.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_96.pth",
+        "slot": 16,
+        "source_relpath": "train/r_96.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 97,
+        "image_name": "r_97",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_97.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_97.pth",
+        "slot": 17,
+        "source_relpath": "train/r_97.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 98,
+        "image_name": "r_98",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_98.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_98.pth",
+        "slot": 18,
+        "source_relpath": "train/r_98.png",
+        "split": "train"
+      },
+      {
+        "batch_index": 4,
+        "frame_index": 99,
+        "image_name": "r_99",
+        "normal_relpath": "Ref-NeRF/refnerf/coffee/train/normal/r_99.png",
+        "prior_relpath": "Ref-NeRF/refnerf/coffee/train/depth/r_99.pth",
+        "slot": 19,
+        "source_relpath": "train/r_99.png",
+        "split": "train"
+      }
+    ]
+  ],
+  "unique_view_count": 300
+}

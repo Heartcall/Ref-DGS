@@ -1,0 +1,63 @@
+{
+  "label": "NON-CANONICAL: regenerated with public VGGT; not an official paper reproduction",
+  "scene": "ShinySynthetic/ball",
+  "source_rgb_root": "/data/liuly/dataset/3DGS/Shiny Blender Synthetic/ball",
+  "vggt": {
+    "repository_url": "https://github.com/facebookresearch/vggt",
+    "commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+    "checkpoint_repository": "facebook/VGGT-1B",
+    "checkpoint_filename": "model.pt",
+    "checkpoint_revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+    "checkpoint_source": "https://huggingface.co/facebook/VGGT-1B/resolve/860abec7937da0a4c03c41d3c269c366e82abdf9/model.pt",
+    "checkpoint_size_bytes": 5026874952,
+    "checkpoint_sha256": "d15bf50a8615c8225ed48b51ea5cac673d82442ec0309036df555a053253afe0"
+  },
+  "input": {
+    "preprocess_function": "vggt.utils.load_fn.load_and_preprocess_images",
+    "mode": "crop",
+    "source_resolution": [800, 800],
+    "target_resolution": [518, 518],
+    "resize": "Pillow bicubic; width 518; aspect-preserving; center crop only if height exceeds 518",
+    "alpha_background": "source RGB PNGs are already white-background RGB; VGGT loader also composites RGBA onto white",
+    "value_range": [0.0, 1.0]
+  },
+  "multiview": {
+    "views_per_inference": 20,
+    "train_batches": 5,
+    "test_batches": 10,
+    "batch_membership_and_order": "recovered exactly from intact pickle tensor storage offsets and shared storage-prefix hashes in the official corrupt .pth archives",
+    "manifest": "ball_batch_manifest.json",
+    "independent_per_view_inference": false,
+    "cross_batch_stitching": false
+  },
+  "inference": {
+    "gpu": "physical GPU 0, NVIDIA RTX A5000 24 GB",
+    "autocast": "torch.bfloat16 (official Ampere path)",
+    "raw_depth_shape": [1, 20, 518, 518, 1],
+    "raw_confidence_shape": [1, 20, 518, 518],
+    "raw_depth_dtype": "torch.float32",
+    "raw_confidence_dtype": "torch.float32",
+    "depth_activation": "exp",
+    "confidence_activation": "expp1",
+    "dpt_frames_chunk_size": 8
+  },
+  "serialization": {
+    "keys": ["depth_map", "depth_conf"],
+    "saved_shape": [518, 518],
+    "saved_dtype": "torch.float32",
+    "saved_device": "cpu",
+    "storage": "detach().cpu().contiguous().clone() independently for every map",
+    "depth_inverted": false,
+    "depth_normalized": false,
+    "depth_scaled_or_shifted": false,
+    "confidence_fabricated": false
+  },
+  "known_irreducible_differences_from_paper_release": [
+    "The authors did not publish the VGGT commit, checkpoint revision, generation script, preprocessing command, random/runtime settings, or serialization code used for their priors.",
+    "This diagnostic uses the currently public VGGT commit and public VGGT-1B checkpoint revision pinned above; equivalence to the unpublished author generation environment cannot be established.",
+    "The current VGGT commit includes a later memory-retention change and an 8-frame DPT-head chunk implementation, while global aggregation still sees each recovered 20-view group jointly.",
+    "PyTorch 2.5.1+cu118 is used instead of VGGT's declared torch 2.3.1 environment.",
+    "Only batch membership/order is recoverable from the corrupt official archives; the missing official tensor payload and its exact numeric values cannot be recovered."
+  ]
+}
+

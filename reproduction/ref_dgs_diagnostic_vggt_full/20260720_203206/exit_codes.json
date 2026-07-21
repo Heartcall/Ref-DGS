@@ -1,0 +1,12 @@
+{
+  "label": "NON-CANONICAL VGGT-REGENERATED PRIORS — NOT A STRICT PAPER REPRODUCTION",
+  "tool_regression_tests": 0,
+  "manifest_generation": 0,
+  "ball_reused_prior_validation": 0,
+  "final_metadata_sync_to_data1": 1,
+  "final_metadata_sync_error": "Read-only file system; /data1 mounted ext4 ro",
+  "new_vggt_generation": "not_launched_resource_gate",
+  "smoke": "not_launched_resource_gate",
+  "full_training": "not_launched_resource_gate",
+  "evaluation": "not_launched_resource_gate"
+}

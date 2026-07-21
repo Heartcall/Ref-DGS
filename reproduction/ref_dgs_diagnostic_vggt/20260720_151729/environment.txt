@@ -1,0 +1,39 @@
+NON-CANONICAL: regenerated with public VGGT; not an official paper reproduction
+Captured: 2026-07-20 Asia/Shanghai
+
+Ref-DGS repository: https://github.com/njfan/Ref-DGS.git (workspace clone)
+Ref-DGS commit: 490dc585a2d329928363e94f5f91951a61ddee0c
+Runtime: detached isolated worktree at the same commit
+VGGT repository: https://github.com/facebookresearch/vggt
+VGGT commit: a288dd0f14786c93483e45524328726ab7b1b4ce
+
+GPU used: physical GPU 0, NVIDIA RTX A5000, 24564 MiB
+GPU inventory: 4 x RTX A5000 24564 MiB; 4 x RTX 3090 Ti 24564 MiB
+NVIDIA driver: 535.247.01
+Host OS: Linux 5.15.0-139-generic x86_64, glibc 2.31
+GCC/G++: 9.4.0
+nvcc: CUDA 11.6, build 11.6.124
+
+refdgs Python: 3.11.15 (GCC 14.3.0)
+PyTorch: 2.5.1+cu118
+torchvision: 0.20.1+cu118
+PyTorch CUDA runtime: 11.8
+cuDNN: 90100
+NumPy (Ref-DGS): 2.3.5
+Pillow: 12.0.0
+huggingface_hub: 1.22.0
+transformers: not installed and not required by this VGGT implementation
+
+VGGT overlay (isolated venv site-packages added only during generation):
+NumPy: 1.26.1
+einops: 0.8.2
+safetensors: 0.8.0
+PyTorch/torchvision/Pillow/huggingface_hub inherited from refdgs above
+
+VGGT declared requirements differ: torch 2.3.1, torchvision 0.18.1,
+NumPy 1.26.1. The diagnostic deliberately did not recreate or mutate the
+existing refdgs conda environment; this compatibility difference is recorded.
+
+Dataset source (read-only): /data/liuly/dataset/3DGS/Shiny Blender Synthetic/ball
+Diagnostic root: /data1/liuly/reproduction/ref_dgs_diagnostic_vggt/20260720_151729
+Canonical root (read-only): /data1/liuly/reproduction/ref_dgs_main_tables/20260720_010227
