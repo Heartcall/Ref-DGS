@@ -1,0 +1,57 @@
+diff --git a/scene/cameras.py b/scene/cameras.py
+index fe3a32b..d48d45e 100644
+--- a/scene/cameras.py
++++ b/scene/cameras.py
+@@ -72,6 +72,14 @@ class Camera(nn.Module):
+         self.rays_o = rays_o
+         self.rays_d = rays_d
+         
++        if os.environ.get("REFDGS_DISABLE_GEOMETRY_PRIOR", "0") == "1":
++            self.vggt_depth = None
++            self.vggt_depth_conf = None
++            self.vggt_normal = None
++            if self.uid == 0:
++                print("[NO_GEOMETRY_PRIOR] camera loader skipped depth, confidence, and normal priors", flush=True)
++            return
++
+         KEYWORDS = ["ref_real", "GlossyReal"]
+ 
+         if any(k in image_path for k in KEYWORDS):
+diff --git a/train.py b/train.py
+index a646e33..5d4d5d1 100644
+--- a/train.py
++++ b/train.py
+@@ -1,6 +1,7 @@
+ import os
+ import sys
+ import uuid
++import json
+ import torch
+ import numpy as np
+ from tqdm import tqdm
+@@ -140,6 +141,25 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpo
+         
+         # loss
+         total_loss = loss
++        if os.environ.get("REFDGS_NO_PRIOR_LOSS_LOG", "0") == "1":
++            if not torch.isfinite(total_loss).item():
++                raise FloatingPointError(f"non-finite no-prior loss at iteration {iteration}")
++            if iteration <= 100 or iteration % 500 == 0 or iteration == opt.iterations:
++                components = {
++                    "label": "PAPER-DESCRIPTION NO-GEOMETRY-PRIOR EXPERIMENT",
++                    "iteration": iteration,
++                    "camera": viewpoint_cam.image_name,
++                    "geometry_prior_loaded": viewpoint_cam.vggt_depth is not None,
++                    "vggt_weight": opt.vggt_weight,
++                    "vggt_until_iter": opt.vggt_until_iter,
++                    "loss_total": total_loss.detach().item(),
++                    "loss_pbr": loss_pbr.detach().item(),
++                    "alpha_loss": alpha_loss.detach().item(),
++                    "normal_consistency_loss": normal_loss.detach().item(),
++                    "vggt_normal_loss": None,
++                    "vggt_depth_loss": None,
++                }
++                print("[NO_GEOMETRY_PRIOR_LOSS] " + json.dumps(components, sort_keys=True), flush=True)
+         total_loss.backward()
+         iter_end.record()
+         

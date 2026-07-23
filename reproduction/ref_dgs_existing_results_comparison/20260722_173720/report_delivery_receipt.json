@@ -1,0 +1,14 @@
+{
+  "artifact": "comparison_report.html",
+  "delivery_status": "passed",
+  "package_status": "passed",
+  "validation_status": "passed",
+  "verification_scope": "structural_only",
+  "browser_validation": "unavailable_no_chromium_not_downloaded",
+  "content_blocks": 19,
+  "charts": 3,
+  "tables": 3,
+  "source_dialog_verified": false,
+  "interaction_verified": false,
+  "note": "The portable HTML package passed structural validation. Browser rendering and interaction checks were not performed because no Chromium executable was available and no browser was downloaded."
+}

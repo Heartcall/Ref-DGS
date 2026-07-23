@@ -1,0 +1,19 @@
+{
+  "artifact": "no_prior_report.html",
+  "browser_warning": {
+    "code": "browser_unavailable",
+    "message": "No installed Chromium headless-shell executable was found; no browser was downloaded."
+  },
+  "classification": "PAPER-DESCRIPTION NO-GEOMETRY-PRIOR EXPERIMENT — NOT UNMODIFIED OFFICIAL CODE",
+  "counts": {
+    "blocks": 22,
+    "charts": 3,
+    "metrics": 5,
+    "tables": 3
+  },
+  "package": "passed",
+  "source_dialog": "not_verified",
+  "source_interaction": "not_verified",
+  "validation": "passed",
+  "verification": "structural_only"
+}
